@@ -5,7 +5,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-24">
                     <div>
                         <h2 className="font-display text-5xl md:text-7xl lg:text-8xl mb-8 leading-none">
-                            Let's Create<br />Impact.
+                            Let&apos;s Create<br />Impact.
                         </h2>
                         <p className="font-sans text-lg text-cream/70 max-w-md">
                             Ready to elevate your corporate identity? Partner with us for premium uniforms, gifting, and events.

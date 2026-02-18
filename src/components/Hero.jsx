@@ -1,40 +1,47 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger);
+if (typeof window !== "undefined") {
+    gsap.registerPlugin(ScrollTrigger);
+}
+
+const useIsomorphicLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
 
 export default function Hero() {
     const containerRef = useRef(null);
     const textRef = useRef(null);
     const imageRef = useRef(null);
 
-    useEffect(() => {
-        const tl = gsap.timeline();
+    useIsomorphicLayoutEffect(() => {
+        let ctx = gsap.context(() => {
+            const tl = gsap.timeline();
 
-        // Text Reveal Animation
-        const lines = textRef.current.querySelectorAll(".text-reveal-line");
-        tl.to(lines, {
-            y: 0,
-            duration: 1.5,
-            stagger: 0.1,
-            ease: "power4.out",
-            delay: 0.2
-        });
+            // Text Reveal Animation
+            const lines = textRef.current.querySelectorAll(".text-reveal-line");
+            tl.to(lines, {
+                y: 0,
+                duration: 1.5,
+                stagger: 0.1,
+                ease: "power4.out",
+                delay: 0.2
+            });
 
-        // Image Parallax
-        gsap.to(imageRef.current, {
-            yPercent: 30,
-            ease: "none",
-            scrollTrigger: {
-                trigger: containerRef.current,
-                start: "top top",
-                end: "bottom top",
-                scrub: true
-            }
-        });
+            // Image Parallax
+            gsap.to(imageRef.current, {
+                yPercent: 30,
+                ease: "none",
+                scrollTrigger: {
+                    trigger: containerRef.current,
+                    start: "top top",
+                    end: "bottom top",
+                    scrub: true
+                }
+            });
+        }, containerRef);
 
+        return () => ctx.revert();
     }, []);
 
     return (

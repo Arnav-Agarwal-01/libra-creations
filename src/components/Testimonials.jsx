@@ -1,9 +1,5 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
 
 const testimonials = [
     {
@@ -61,7 +57,7 @@ export default function Testimonials() {
                                 </div>
 
                                 <blockquote className="font-display text-3xl md:text-5xl leading-tight mb-8">
-                                    "{testimonial.quote}"
+                                    &quot;{testimonial.quote}&quot;
                                 </blockquote>
 
                                 <div className="space-y-2">

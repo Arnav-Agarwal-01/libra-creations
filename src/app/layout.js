@@ -24,9 +24,10 @@ import Footer from "@/components/Footer";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${cinzel.variable} ${dmSans.variable} antialiased bg-cream text-off-black`}
+        suppressHydrationWarning
       >
         <SmoothScroll />
         <CustomCursor />

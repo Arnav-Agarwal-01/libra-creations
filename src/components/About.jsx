@@ -1,35 +1,43 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger);
+if (typeof window !== "undefined") {
+    gsap.registerPlugin(ScrollTrigger);
+}
+
+const useIsomorphicLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
 
 export default function About() {
     const sectionRef = useRef(null);
     const textRef = useRef(null);
 
-    useEffect(() => {
-        const text = textRef.current;
+    useIsomorphicLayoutEffect(() => {
+        let ctx = gsap.context(() => {
+            const text = textRef.current;
+            if (!text) return;
 
-        // Split text into words/chars for more granular control if needed, 
-        // but for this effect, we'll just reveal lines or opacity change on scroll
+            // Split text into words/chars for more granular control if needed, 
+            // but for this effect, we'll just reveal lines or opacity change on scroll
 
-        gsap.fromTo(text,
-            { opacity: 0.2 },
-            {
-                opacity: 1,
-                duration: 1,
-                stagger: 0.1,
-                scrollTrigger: {
-                    trigger: sectionRef.current,
-                    start: "top center",
-                    end: "bottom center",
-                    scrub: true
+            gsap.fromTo(text,
+                { opacity: 0.2 },
+                {
+                    opacity: 1,
+                    duration: 1,
+                    stagger: 0.1,
+                    scrollTrigger: {
+                        trigger: sectionRef.current,
+                        start: "top center",
+                        end: "bottom center",
+                        scrub: true
+                    }
                 }
-            }
-        );
+            );
+        }, sectionRef);
 
+        return () => ctx.revert();
     }, []);
 
     return (
@@ -48,10 +56,10 @@ export default function About() {
                 <div className="md:w-2/3">
                     <div ref={textRef} className="font-display text-3xl md:text-5xl leading-tight space-y-12">
                         <p>
-                            We don't just supply products; we craft identities.
+                            We don&apos;t just supply products; we craft identities.
                         </p>
                         <p className="text-off-black/80">
-                            For over 20 years, we've been the silent partner behind the sharpest corporate looks, the most thoughtful gifts, and the most memorable events in India.
+                            For over 20 years, we&apos;ve been the silent partner behind the sharpest corporate looks, the most thoughtful gifts, and the most memorable events in India.
                         </p>
                         <p className="text-off-black/60">
                             From Hyderabad to the nation, our obsession with detail creates the perfect balance between corporate professionalism and creative flair.

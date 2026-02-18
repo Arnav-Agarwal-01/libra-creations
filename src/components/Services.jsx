@@ -1,9 +1,13 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger);
+if (typeof window !== "undefined") {
+    gsap.registerPlugin(ScrollTrigger);
+}
+
+const useIsomorphicLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
 
 const services = [
     {
@@ -30,7 +34,7 @@ export default function Services() {
     const sectionRef = useRef(null);
     const containerRef = useRef(null);
 
-    useEffect(() => {
+    useIsomorphicLayoutEffect(() => {
         let ctx = gsap.context(() => {
             // Horizontal Scroll
             const container = containerRef.current;
@@ -52,7 +56,12 @@ export default function Services() {
             }
         }, sectionRef);
 
-        return () => ctx.revert();
+        return () => {
+            ctx.revert();
+            ScrollTrigger.getAll().forEach(t => {
+                if (t.trigger === sectionRef.current) t.kill();
+            });
+        };
     }, []);
 
     return (

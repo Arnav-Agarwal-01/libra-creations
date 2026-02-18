@@ -9,7 +9,7 @@ export default function Contact() {
                             Start Your<br />Journey
                         </h2>
                         <p className="text-xl text-cream/70 mb-12 max-w-md">
-                            Beginning your journey with us is simple. Share your vision, and we'll handle the rest.
+                            Beginning your journey with us is simple. Share your vision, and we&apos;ll handle the rest.
                         </p>
 
                         <div className="space-y-8">

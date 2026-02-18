@@ -7,9 +7,6 @@
   --sage: #7A8B8B;
   --off-black: #1C1C1C;
   --soft-white: #FAFAF5;
-  
-  --font-cinzel: var(--font-cinzel);
-  --font-dm-sans: var(--font-dm-sans);
 }
 
 @theme inline {
@@ -17,11 +14,12 @@
   --color-burgundy: var(--burgundy);
   --color-sage: var(--sage);
   --color-off-black: var(--off-black);
-  
+
   --font-display: var(--font-cinzel);
   --font-sans: var(--font-dm-sans);
-  
+
   --animate-spin-slow: spin 3s linear infinite;
+  --animate-fade-in-up: fade-in-up 0.8s ease-out forwards;
 }
 
 body {
@@ -33,7 +31,8 @@ body {
 }
 
 /* Lenis */
-html.lenis, html.lenis body {
+html.lenis,
+html.lenis body {
   height: auto;
 }
 
@@ -64,4 +63,16 @@ html.lenis, html.lenis body {
 
 .text-reveal-line {
   transform: translateY(100%);
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

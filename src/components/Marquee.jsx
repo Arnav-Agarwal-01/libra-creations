@@ -1,6 +1,8 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
+
+const useIsomorphicLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
 
 const clients = [
     "Computershare", "Oasis Fertility", "Inovalon", "Reliance", "Deloitte",
@@ -12,15 +14,20 @@ const clients = [
 export default function Marquee() {
     const marqueeRef = useRef(null);
 
-    useEffect(() => {
+    useIsomorphicLayoutEffect(() => {
         const marquee = marqueeRef.current;
+        if (!marquee) return;
 
-        gsap.to(marquee, {
-            xPercent: -50,
-            ease: "none",
-            duration: 20,
-            repeat: -1
+        const ctx = gsap.context(() => {
+            gsap.to(marquee, {
+                xPercent: -50,
+                ease: "none",
+                duration: 20,
+                repeat: -1
+            });
         });
+
+        return () => ctx.revert();
     }, []);
 
     return (
