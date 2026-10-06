@@ -89,26 +89,28 @@ export default function PortfolioPage() {
                             {clients.map((client) => (
                                 <div
                                     key={client.name}
-                                    className="group relative aspect-[3/2] bg-cream/[0.04] border border-cream/10 rounded-2xl flex flex-col items-center justify-center gap-4 p-6 hover:border-burgundy/70 hover:bg-cream/[0.07] transition-all duration-500 overflow-hidden"
+                                    className="group relative aspect-[3/2] bg-cream/[0.04] border border-cream/10 rounded-2xl flex flex-col items-center justify-center gap-4 p-6 md:p-8 hover:bg-cream hover:border-cream hover:-translate-y-1 hover:shadow-[0_20px_40px_-20px_rgba(0,0,0,0.6)] transition-all duration-500 overflow-hidden"
                                 >
-                                    <div className="relative w-full h-12 md:h-14 flex-1 flex items-center justify-center">
+                                    <div className="relative w-full max-w-[80%] flex-1 min-h-[3rem] max-h-16 flex items-center justify-center">
                                         {client.logo ? (
                                             <>
                                                 <Image
                                                     src={client.logo}
                                                     alt={client.name}
                                                     fill
-                                                    className="object-contain opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
+                                                    unoptimized
+                                                    sizes="(min-width: 1024px) 220px, 40vw"
+                                                    className="object-contain [filter:brightness(0)_invert(1)] opacity-70 group-hover:[filter:none] group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
                                                 />
                                                 <span className="sr-only">{client.name}</span>
                                             </>
                                         ) : (
-                                            <span className="font-display text-lg md:text-xl text-cream/70 group-hover:text-cream transition-colors text-center leading-tight">
+                                            <span className="font-display text-lg md:text-xl text-cream/70 group-hover:text-off-black transition-colors text-center leading-tight">
                                                 {client.name}
                                             </span>
                                         )}
                                     </div>
-                                    <span className="font-sans text-[10px] md:text-xs uppercase tracking-[0.2em] text-cream/40 group-hover:text-cream/70 transition-colors text-center">
+                                    <span className="font-sans text-[10px] md:text-xs uppercase tracking-[0.2em] text-cream/40 group-hover:text-off-black/60 transition-colors text-center">
                                         {client.name}
                                     </span>
                                 </div>
@@ -133,7 +135,8 @@ export default function PortfolioPage() {
                             <div className="relative aspect-[16/10] flex items-center justify-center p-10 md:p-16">
                                 <div className="relative w-full max-w-md h-20 md:h-24">
                                     <Image
-                                        src="/images/clients/client-tata-teleservices.png"
+                                        src="/images/clients/logos/tata-teleservices.svg"
+                                        unoptimized
                                         alt="Tata Teleservices"
                                         fill
                                         className="object-contain object-center"

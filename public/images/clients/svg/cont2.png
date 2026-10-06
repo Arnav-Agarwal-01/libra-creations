@@ -1,0 +1,2937 @@
+	<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '917348020103273');
+      window.addEventListener('load', function(){
+    
+    fbq('track', 'PageView');
+    
+    });
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=917348020103273&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-974609438"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-974609438');
+  </script>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="6fFRr8p_rdsjPNiMK3-S05zkqchky11o26mFWVLx1Q0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="author" content="Continental Hospitals">
+  <meta name="publisher" content="Continental Hospitals">
+
+  <meta name="copyright" content="Continental Hospitals">
+  <meta property="og:site_name" content="Continental Hospitals">
+
+  <link rel="icon" type="image/x-icon" href="https://continentalhospitals.com/assets/website/images/favicon.png">
+  <link rel="stylesheet" href="https://continentalhospitals.com/assets/website/fonts/icomoon/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Montserrat&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://continentalhospitals.com/assets/website/css/bootstrap.min.css?v=1.0">
+
+  <link rel="stylesheet" href="https://continentalhospitals.com/assets/website/css/minify_fileall.css?v=1.0">
+  
+  <link rel="preload" href="https://continentalhospitals.com/assets/website/css/footer.css?v=1.0" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <noscript>
+    <link rel="stylesheet"
+    href="https://continentalhospitals.com/assets/website/css/footer.css?v=1.0">
+    </noscript>
+
+    <link rel="stylesheet" href="https://continentalhospitals.com/assets/website/slick/slick.css?v=1.0">
+
+    <link rel="stylesheet" href="https://continentalhospitals.com/assets/website/slick/slick-theme.css?v=1.0">
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://continentalhospitals.com/assets/website/css/footer.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://continentalhospitals.com/assets/admin/vendor/jquery-validation/jquery.validate.min.js"></script>
+  <title>
+    404 - Page Not Found  </title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  
+  <link rel="canonical" href="https://continentalhospitals.com/assets/images/logo.png">
+  <meta property="og:title" content="404 - Page Not Found" />
+  <meta property="og:description" content="" />
+  <meta property="og:keywords" content="">
+  <meta property="og:url" content="https://continentalhospitals.com/assets/images/logo.png" />
+    <!--========= lagues code start here ================-->
+     <link rel="alternate" hreflang="x-default" href="https://continentalhospitals.com/assets/images/logo.png/">
+<link rel="alternate" hreflang="en" href="https://continentalhospitals.com/en/assets/images/logo.png/">
+<link rel="alternate" hreflang="hi" href="https://continentalhospitals.com/hi/assets/images/logo.png/">
+<link rel="alternate" hreflang="te" href="https://continentalhospitals.com/te/assets/images/logo.png/">
+<link rel="alternate" hreflang="ar" href="https://continentalhospitals.com/ar/assets/images/logo.png/">
+<link rel="alternate" hreflang="bn" href="https://continentalhospitals.com/bn/assets/images/logo.png/">
+<link rel="alternate" hreflang="sw" href="https://continentalhospitals.com/sw/assets/images/logo.png/">
+<link rel="alternate" hreflang="ur" href="https://continentalhospitals.com/ur/assets/images/logo.png/">
+<link rel="alternate" hreflang="mr" href="https://continentalhospitals.com/mr/assets/images/logo.png/">
+<link rel="alternate" hreflang="ta" href="https://continentalhospitals.com/ta/assets/images/logo.png/">
+<link rel="alternate" hreflang="ml" href="https://continentalhospitals.com/ml/assets/images/logo.png/">
+<link rel="alternate" hreflang="so" href="https://continentalhospitals.com/so/assets/images/logo.png/">
+<link rel="alternate" hreflang="kn" href="https://continentalhospitals.com/kn/assets/images/logo.png/">
+<link rel="alternate" hreflang="gu" href="https://continentalhospitals.com/gu/assets/images/logo.png/">
+<link rel="alternate" hreflang="pa" href="https://continentalhospitals.com/pa/assets/images/logo.png/">
+<link rel="alternate" hreflang="it" href="https://continentalhospitals.com/it/assets/images/logo.png/">
+<link rel="alternate" hreflang="es" href="https://continentalhospitals.com/es/assets/images/logo.png/">
+<link rel="alternate" hreflang="ne" href="https://continentalhospitals.com/ne/assets/images/logo.png/">
+<link rel="alternate" hreflang="ps" href="https://continentalhospitals.com/ps/assets/images/logo.png/">
+<link rel="alternate" hreflang="fa" href="https://continentalhospitals.com/fa/assets/images/logo.png/">
+<link rel="alternate" hreflang="pt" href="https://continentalhospitals.com/pt/assets/images/logo.png/">
+<link rel="alternate" hreflang="am" href="https://continentalhospitals.com/am/assets/images/logo.png/">
+<link rel="alternate" hreflang="fr" href="https://continentalhospitals.com/fr/assets/images/logo.png/">
+<link rel="alternate" hreflang="ru" href="https://continentalhospitals.com/ru/assets/images/logo.png/">
+<link rel="alternate" hreflang="zh-CN" href="https://continentalhospitals.com/zh-CN/assets/images/logo.png/">
+<!--========= lagues code end here ================-->
+ <!--================= location scheme added here start ================ -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Hospital",
+  "@id": "https://www.continentalhospitals.com/#continental-hospitals",
+  "name": "Continental Hospitals",
+  "image": "https://www.continentalhospitals.com/assets/images/logo.png",
+  "url": "https://www.continentalhospitals.com",
+  "telephone": "+91-04067000070",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Plot No. 3, Road No. 2, IT & Financial District, Nanakramguda, Gachibowli",
+    "addressLocality": "Hyderabad",
+    "addressRegion": "Telangana",
+    "postalCode": "500032",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 17.412733,
+    "longitude": 78.335697
+  },
+  "openingHours": [
+    "Mo-Su 00:00-23:59"
+  ],
+  "sameAs": [
+    "https://www.facebook.com/ContinentalHospitals",
+    "https://twitter.com/ContinentalHyd",
+    "https://www.linkedin.com/company/continental-hospitals",
+    "https://www.instagram.com/continental_hospitals/"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "Continental Hospitals",
+      "url": "https://continentalhospitals.com/",
+      "inLanguage": [
+        "en", "te", "hi", "bn", "ta", "mr", "ml", "kn", "ar",
+        "ur", "sw", "so", "it", "es", "fa", "pt", "am"
+      ],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://continentalhospitals.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://continentalhospitals.com/#webpage",
+      "url": "https://continentalhospitals.com/",
+      "name": "Continental Hospitals - Best Multispecialty Hospital in India",
+      "description": "Continental Hospitals is a leading multispecialty hospital offering advanced care across medical specialties with expert doctors and world-class infrastructure.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://continentalhospitals.com/"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://continentalhospitals.com/assets/website/images/continental_logo.webp"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://continentalhospitals.com/#organization",
+      "name": "Continental Hospitals",
+      "url": "https://continentalhospitals.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://continentalhospitals.com/assets/website/images/continental_logo.webp"
+      },
+      "sameAs": [
+        "https://www.facebook.com/ContinentalHospitals",
+        "https://twitter.com/ContinentalHosp",
+        "https://www.linkedin.com/company/continental-hospitals",
+        "https://www.instagram.com/continentalhospitals"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-4067070000",
+        "contactType": "Customer Service",
+        "areaServed": "IN",
+        "availableLanguage": ["en", "hi", "te"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://continentalhospitals.com/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+ <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Organization",
+      "url": "https://continentalhospitals.com/",
+      "logo": "https://continentalhospitals.com/assets/website/images/continental_logo.webp",
+      "name": "Continental Hospitals",
+      "email": "queries@continentalhospitals.com",
+      "description": "Continental Hospitals is one of the Best Hospital in Hyderabad | Best Multi-specialty Hospital in Gachibowli, Hyderabad with 30+ specialties having renowned doctors and offers a New Experience in Healthcare.",
+      "address": "Plot No 3, Road No. 2, Financial District, Gachibowli, Nanakaramguda, Telangana 500032",
+      "telephone": "040 67000 000",
+      "funder": {
+        "@type": "Person",
+        "name": "Dr Guru N Reddy",
+        "image": "https://continentalhospitals.com/images/team/e5695550691c564ed850920b25309ce8.png",
+        "url": "https://continentalhospitals.com/doctors/medical-gastroenterologist/dr-guru-n-reddy/",
+        "jobTitle": "Founder & Chairman"
+      }
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "WebSite",
+      "name": "Continental Hospitals",
+      "url": "https://continentalhospitals.com/",
+      "description": "Continental Hospitals is one of the Best Hospital in Hyderabad | Best Multi-specialty Hospital in Gachibowli, Hyderabad with 30+ specialties having renowned doctors and offers a New Experience in Healthcare",
+      "image": "https://continentalhospitals.com/assets/website/images/continental_logo.webp",
+      "about": {
+        "@type": "thing",
+        "url": "https://continentalhospitals.com/about-us/"
+      },  
+      "keywords": "best hospitals in hyderabad, hospitals near me, best hospital in hyderabad, hospital near me 24 hours, multispeciality hospital in hyderabad, best multispeciality hospital in hyderabad"
+    }
+    </script>
+    <script type="application/ld+json" >
+    {
+      "@context": "https://schema.org",
+      "@type": "Hospital",
+      "name": "Continental Hospitals",
+      "url": "https://continentalhospitals.com/",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "reviewCount": "23800",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    }
+    </script>
+<!--================= location scheme added here end ================ -->
+  <!-- Google Tag Manager -->
+   <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-K7NZQ4R');</script>
+  <!-- End Google Tag Manager -->
+   <!-- LeadSquared Tracking Code Start -->
+    <script src="https://web.mxradon.com/t/Tracker.js"></script>
+    <script>
+    window.addEventListener('load', function () {
+        if (typeof pidTracker === 'function') {
+            pidTracker('58586');
+        }
+    });
+    </script>
+    <!-- LeadSquared Tracking Code End -->
+
+
+<style>
+ p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 14px; */
+    line-height: 24px;
+    /* color: #000000; */
+    color: #002d39;
+}
+hr{
+    margin: 0;
+    
+}
+.careers_new{
+    background: aliceblue;
+    color: #025c58;
+    padding: 2px 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.careers_new a i{
+  color: #025c58;
+}
+.careers_new a{
+  color: #025c58;
+}
+.special-offer-link{
+    background:#b7d5cd;
+    color:#fff !important;
+    font-weight:700;
+    border-radius:8px;
+    width: fit-content;
+
+}
+
+.special-offer-link:hover{
+    background:#ffc107;
+    color:#fff !important;
+}
+
+</style>
+
+
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K7NZQ4R" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <a href="https://continentalhospitals.com/" class="brand-wrap" data-abc="true">
+        <img class="logo" src="https://continentalhospitals.com/assets/website/images/logo (1).webp" style="width: 100px;">
+      </a>
+      <div class="serach_data">
+
+        <input class="topseainput" id="search_text3" placeholder="Search Doctors or Specialities.." autocomplete="off">
+        <i class="fa fa-search p-1" style="font-size:16px; color: ; " aria-hidden="true"></i>
+
+      </div>
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+  <!-- menu-->
+  <header class="site-navbar js-sticky-header site-navbar-target " role="banner">
+       <!--============== GT translarer code start here ======================== -->
+    <div class="langauge_setup">
+      <div class="container" >
+      <div class="appointment_buttons_list">
+
+        <div class="ancor_tag_data d-none d-sm-none d-lg-block" >
+          <a href="tel:04067000000"><i class="fa-solid fa-phone-volume me-3"></i> 040 67000 000 </a>
+        </div>
+        <div class="ancor_tag_data" >
+        <a href="https://wa.me/917799360360?text=Hi%2C%20I%20am%20looking%20for%20a%20doctor%20appointment.%20Please%20help%20me%20book%20an%20appointment." title="Book Appointment via Whatsapp">
+          <i class="fa-brands fa-whatsapp me-3"></i> Doctor Appointment
+        </a>
+        </div>
+        <div class="ancor_tag_data d-none d-sm-none d-lg-block" >
+        <a href="tel:04067000111"><i class="fa-solid fa-truck-medical me-3"></i>  Emergency 040 67000 111</a>
+        </div>
+      
+      </div>
+      <div class="continetal_app" >
+          <div class="careers_new d-none d-sm-none d-lg-block" >
+              <a href="https://hr1.to//a86c98" >  Our Careers <i class="fa-solid fa-square-arrow-up-right me-3"></i> </a>
+          </div>
+        <div class="ancor_tag_data d-none d-sm-none d-lg-block" >
+        <a href="https://onelink.to/jtxbch"><i class="fa-solid fa-mobile-screen"></i> Access Your Reports </a>
+        </div>
+        <!--<div class=" d-block d-md-none" >-->
+        <!--<a href="https://onelink.to/jtxbch"><i class="fa-solid fa-mobile-screen"></i></a>-->
+        <!--</div>-->
+        <div class="gtranslate_wrapper"></div>
+      </div>
+    
+      </div>
+   
+    </div>
+       <!--============== GT translarer code start end======================== -->
+    <!-- topbar-->
+    <div class="top-bar d-md-block d-none">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-6 col-lg-2">
+            <div>
+              <a href="https://continentalhospitals.com/" class="brand-wrap" data-abc="true">
+                <img class="logo" src="https://continentalhospitals.com/assets/website/images/logo (1).webp"
+                  style="width: 130px;">
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4 col-lg-4 d-md-none d-lg-block">
+            <div class="continetal_connect_app">
+              <a href="https://onelink.to/jtxbch" ><span><i class="fa-solid fa-mobile-screen"></i> <b style="margin-left: 5px;" > Access Your Reports  </b> </span></a>
+
+            </div>
+  
+          </div>
+          <div class="col-sm-6 col-lg-6">
+
+            <div class="serach_bar_data">
+
+              <div class="serach_data">
+
+                <input class="topseainput" id="search_text" placeholder="Search Treatments..."
+                  autocomplete="off">
+                <i class="fa fa-search p-1" style="font-size:16px; color: ; " aria-hidden="true"></i>
+
+              </div>
+
+              <div class="d-none d-sm-none d-lg-block" >
+                <img class="" src="https://continentalhospitals.com/images/accrediation.png" style="width: 130px;">
+              </div>
+              <div class="buttons_emrgy d-sm-none d-lg-block">
+                <!--<img src="https://continentalhospitals.com/images/ambulance.png" alt="" style="width:30px">-->
+                <a href="tel:+914067000111"><i class="fa-solid fa-truck-medical me-3"></i>
+                <button>24/7 Emergency Call</button>
+               </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class=" navbgstatic">
+      <div class="container">
+        <div class="row align-items-center position-relative d-flex justify-content-between">
+          <div class=" d-md-none">
+            <a href="https://continentalhospitals.com/" class="brand-wrap" data-abc="true">
+              <img class="sm-logo" src="https://continentalhospitals.com/assets/website/images/logo (1).webp">
+            </a>
+          </div>
+          <button class="btn btn-bprimary topsearch d-md-none mr-5">
+            <input class="topseainput" id="search_text2" placeholder="Search.."  autocomplete="off">
+            <i class="fa fa-search p-1" style="font-size:16px; color: #1D8984; " aria-hidden="true"></i>
+          </button>
+       
+            <div class="mob_view_apps d-md-none" >
+                <b class="mobile_view_btn ">
+                <a href="https://onelink.to/jtxbch"><i class="fa-solid fa-mobile-screen-button"></i> <b> Access Your Reports  </b></a>
+              </b>
+
+                <b class="mobile_view_btn ">
+                <a href="https://hr1.to//a86c98"><i class="fa-solid fa-diamond-turn-right"></i> <b>Our Careers</b></a>
+              </b>
+            </div>
+
+         
+          <div class="col-12 m-0 p-0">
+            <nav class="site-navigation ml-auto " role="navigation">
+              <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                <li class="has-children">
+                  <a href="#" class="nav-link">For Patients</a>
+                  <ul class="dropdown arrow-top list-items2" id="for_patinets_list" >
+                    <li>
+                      <a href="https://onelink.to/jtxbch" class="nav-link">
+                        Access Your Reports </a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/doctors/" class="nav-link">Find a
+                        Doctor</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/book-doctor-appointment/" class="nav-link">Book Doctor
+                        Appointment </a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/patient-info/" class="nav-link">Patient
+                        information</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/visitor-guide/" class="nav-link">Visitor Guide</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/free-second-opinion/" class="nav-link">Free Second Opinion</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/patient-testimonials/" class="nav-link">Patient Reviews</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/adult-vaccination-hyderabad/" class="nav-link">Adult
+                        Vaccination</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/blog/" class="nav-link">Blog</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/diseases/" class="nav-link">Diseases and Conditions</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/transplants/" class="nav-link">Transplants</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/online-doctor-consultation/" class="nav-link">Online
+                        Consultation</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/treatments/" class="nav-link">Treatments</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/surgeries/" class="nav-link">Surgery</a>
+                    </li>
+                    
+                     <li class="has-children">
+                      <a href="https://continentalhospitals.com/management" class="nav-link">Clinics</a>
+                          <ul class="dropdown arrow-top list-items2 ml-2">
+                            <li>
+                                <a href="https://continentalhospitals.com/voice-and-performance-clinic" class="nav-link">Voice And Performance Clinic</a>
+                             </li>
+                                                          <li>
+                                <a href="https://continentalhospitals.com/clinics/sleep-disorder-clinic/"
+                                  class="nav-link">Sleep Disorder Clinic</a>
+                              </li>
+                                                            <li>
+                                <a href="https://continentalhospitals.com/clinics/headache-clinic/"
+                                  class="nav-link">Headache Clinic</a>
+                              </li>
+                                                            <li>
+                                <a href="https://continentalhospitals.com/clinics/evening-clinics/"
+                                  class="nav-link">Evening Clinics</a>
+                              </li>
+                                                          <li>
+                                <a href="https://continentalhospitals.com/outreach-clinics/" class="nav-link">Outreach Clinics</a>
+                              </li>
+                          </ul>
+                         
+                    </li>
+                    
+                    
+                  </ul>
+                </li>
+                <li class="has-children">
+                  <a href="https://continentalhospitals.com/" class="nav-link">Our Hospitals</a>
+                  <ul class="dropdown arrow-top list-items2" style="width:356px" >
+
+                    <li>
+                        <a href="https://continentalhospitals.com/" class="nav-link">Continental Hospitals – Hyderabad Gachibowli</a>
+                      </li>
+                     <hr>
+                    <li>
+                        <a href="https://continentalhospitals.com/chhattisgarh" class="nav-link">Continental Chhattisgarh Super Specialty Hospital – Jagdalpur</a>
+                      </li>
+                  </ul>
+                </li>
+                <li class="has-children position-relative">
+                  <a href="https://continentalhospitals.com/doctors/" class="nav-link">Find a Doctor</a>
+                  <ul class="dropdown arrow-top p-3 row gx-4 gy-3 list-items" id="healt_check_code" >
+
+                    <!-- 🟩 Top Specialties Section -->
+                    <li class="col-12 mb-2"><strong class="text-uppercase mb-2">Most Popular Specialities</strong></li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/bariatric-surgeon/"
+                          class="nav-link speciality-link">
+                          Bariatric Surgeon                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/cardiologist/"
+                          class="nav-link speciality-link">
+                          Cardiologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/gastroenterologist/"
+                          class="nav-link speciality-link">
+                          Gastroenterologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/general-physician/"
+                          class="nav-link speciality-link">
+                          General Physician                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/gynecologist/"
+                          class="nav-link speciality-link">
+                          Gynecologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/liver-transplant-surgeon/"
+                          class="nav-link speciality-link">
+                          Liver Transplant Surgeon                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/neurologist/"
+                          class="nav-link speciality-link">
+                          Neurologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/orthopedic-doctor/"
+                          class="nav-link speciality-link">
+                          Orthopedic Doctor                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/pediatrician/"
+                          class="nav-link speciality-link">
+                          Pediatrician                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/robotic-surgeon/"
+                          class="nav-link speciality-link">
+                          Robotic Surgeon                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/surgical-gastroenterologist/"
+                          class="nav-link speciality-link">
+                          Surgical Gastroenterologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/surgical-oncologist/"
+                          class="nav-link speciality-link">
+                          Surgical Oncologist                        </a>
+                      </li>
+                    
+                    <!-- Divider -->
+                    <li class="col-12">
+                      <hr>
+                    </li>
+
+                   
+                    <li class="col-12 mb-2"><strong class="text-uppercase mb-2" style="margin-left:6px"  >Other Specialities</strong></li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/anesthesiologist/"
+                          class="nav-link speciality-link">
+                          Anesthesiologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/audiologist/"
+                          class="nav-link speciality-link">
+                          Audiologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/breast-oncologist/"
+                          class="nav-link speciality-link">
+                          Breast Oncologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/cardiothoracic-surgeon/"
+                          class="nav-link speciality-link">
+                          Cardiothoracic Surgeon                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/cosmetic-dentists/"
+                          class="nav-link speciality-link">
+                          Cosmetic Dentist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/cosmetic-gynecologist/"
+                          class="nav-link speciality-link">
+                          Cosmetic Gynecologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/cosmetic-skin-specialist/"
+                          class="nav-link speciality-link">
+                          Cosmetic Skin Care                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/craniofacial-surgery/"
+                          class="nav-link speciality-link">
+                          Craniofacial Surgeon                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/critical-care-specialists/"
+                          class="nav-link speciality-link">
+                          Critical Care Specialist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/dentist/"
+                          class="nav-link speciality-link">
+                          Dentist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/dermatologist/"
+                          class="nav-link speciality-link">
+                          Dermatologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/dietician/"
+                          class="nav-link speciality-link">
+                          Nutritionist & Dietician                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/emergency-medicine-doctors/"
+                          class="nav-link speciality-link">
+                          Emergency Medicine Specialist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/endocrinologist-and-diabetologist/"
+                          class="nav-link speciality-link">
+                          Endocrinologist & Diabetologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/ent-specialists/"
+                          class="nav-link speciality-link">
+                          Ent Specialist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/general-laparoscopic-surgeon/"
+                          class="nav-link speciality-link">
+                          General & Laparoscopic Surgeon                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/genetic-counsellor/"
+                          class="nav-link speciality-link">
+                          Genetic Counsellor                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/geriatric-specialist/"
+                          class="nav-link speciality-link">
+                          Geriatric Specialist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/head-neck-surgeon/"
+                          class="nav-link speciality-link">
+                          Head & Neck Surgeon                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/headache-clinic/"
+                          class="nav-link speciality-link">
+                          Headache Specialist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/hematologist/"
+                          class="nav-link speciality-link">
+                          Hematologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/infectious-disease-specialist/"
+                          class="nav-link speciality-link">
+                          Infectious Disease Specialist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/internal-medicine-specialist/"
+                          class="nav-link speciality-link">
+                          Internal Medicine Specialist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/interventional-radiologist/"
+                          class="nav-link speciality-link">
+                          Interventional Radiologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/laboratory-medicine/"
+                          class="nav-link speciality-link">
+                          Laboratory Specialist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/laparoscopic-surgeon/"
+                          class="nav-link speciality-link">
+                          Laparoscopic Surgeon                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/medical-oncologist/"
+                          class="nav-link speciality-link">
+                          Medical Oncologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/nephrologist/"
+                          class="nav-link speciality-link">
+                          Nephrologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/neurosurgeon-and-spine-surgeon/"
+                          class="nav-link speciality-link">
+                          Neuro And Spine Surgeon                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/nuclear-medicine-specialist/"
+                          class="nav-link speciality-link">
+                          Nuclear Medicine Specialist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/obstetrician/"
+                          class="nav-link speciality-link">
+                          Obstetrician                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/occupational-therapist/"
+                          class="nav-link speciality-link">
+                          Occupational Therapist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/oncologist/"
+                          class="nav-link speciality-link">
+                          Oncologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/oncoplastic-surgeon/"
+                          class="nav-link speciality-link">
+                          Oncoplastic Surgeon                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/ophthalmologist/"
+                          class="nav-link speciality-link">
+                          Ophthalmologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/pain-medicine/"
+                          class="nav-link speciality-link">
+                          Pain Medicine Specialist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/pediatric-allergist/"
+                          class="nav-link speciality-link">
+                          Pediatric Allergist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/pediatric-cardiologist/"
+                          class="nav-link speciality-link">
+                          Pediatric Cardiologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/pediatric-subspecialties/"
+                          class="nav-link speciality-link">
+                          Pediatric Subspecialties                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/pediatric-surgeon/"
+                          class="nav-link speciality-link">
+                          Pediatric Surgeon                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/pediatrician-intensive-care-unit/"
+                          class="nav-link speciality-link">
+                          Pediatrician                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/physical-Medicine-rehabilitation-specialist/"
+                          class="nav-link speciality-link">
+                          Physical Medicine & Rehabilitation                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/physiotherapist/"
+                          class="nav-link speciality-link">
+                          Physiotherapist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/plastic-and-reconstructive-surgeon/"
+                          class="nav-link speciality-link">
+                          Plastic & Reconstructive Surgeon                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/psychiatrist/"
+                          class="nav-link speciality-link">
+                          Psychiatrist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/psychologist/"
+                          class="nav-link speciality-link">
+                          Psychologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/pulmonologist/"
+                          class="nav-link speciality-link">
+                          Pulmonologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/radiation-oncologist/"
+                          class="nav-link speciality-link">
+                          Radiation Oncologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/radiologist/"
+                          class="nav-link speciality-link">
+                          Radiologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/rheumatologist/"
+                          class="nav-link speciality-link">
+                          Rheumatologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/sleep-medicine-specialist/"
+                          class="nav-link speciality-link">
+                          Sleep Medicine Specialist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/speech-therapist/"
+                          class="nav-link speciality-link">
+                          Speech Therapist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/sports-medicine-specialist/"
+                          class="nav-link speciality-link">
+                          Sports Medicine Specialist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/thoracic-surgeon/"
+                          class="nav-link speciality-link">
+                          Thoracic Surgeon                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/transplant-surgeon/"
+                          class="nav-link speciality-link">
+                          Transplant Surgeon                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/urologist/"
+                          class="nav-link speciality-link">
+                          Urologist                        </a>
+                      </li>
+                                          <li class="col-md-3 col-sm-4 col-12 speciality-item">
+                        <a href="https://continentalhospitals.com/doctor-list/vascular-surgeon/"
+                          class="nav-link speciality-link">
+                          Vascular Surgeon                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+                <li class="has-children position-relative">
+                  <a href="https://continentalhospitals.com/specialities/" class="nav-link ">Our
+                    Specialities</a>
+                  <ul class="dropdown arrow-top p-3 row gx-4 gy-3 list-items_new" type="none" id="Specialities_check_code"  >
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/andrology/"
+                            class="nav-link speciality-link">Andrology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/anesthesiology/"
+                            class="nav-link speciality-link">Anesthesiology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/audiology/"
+                            class="nav-link speciality-link">Audiology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/bariatric-surgery/"
+                            class="nav-link speciality-link">Bariatric Surgery</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/breast-clinicbreast-oncology/"
+                            class="nav-link speciality-link">Breast Clinic/Breast Oncology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/cardiology/"
+                            class="nav-link speciality-link">Cardiology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/cardiology-pediatrics/"
+                            class="nav-link speciality-link">Cardiology Pediatrics</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/cardiothoracic-and-vascular-surgery/"
+                            class="nav-link speciality-link">Cardiothoracic & Vascular Surgery</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/cosmetic-dentistry/"
+                            class="nav-link speciality-link">Cosmetic Dentistry</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/cosmetic-gynecology/"
+                            class="nav-link speciality-link">Cosmetic Gynecology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/cosmetic-skin-care/"
+                            class="nav-link speciality-link">Cosmetic Skin Care</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/craniofacial-surgery/"
+                            class="nav-link speciality-link">Craniofacial Surgery</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/critical-care-medicine/"
+                            class="nav-link speciality-link">Critical Care Medicine</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/dental-and-maxillofacial-surgery/"
+                            class="nav-link speciality-link">Dental & Maxillofacial Surgery</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/dermatology/"
+                            class="nav-link speciality-link">Dermatology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/emergency-medicine-and-trauma/"
+                            class="nav-link speciality-link">Emergency Medicine & Trauma</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/endocrinology-and-diabetology/"
+                            class="nav-link speciality-link">Endocrinology & Diabetology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/ent-ear-nose-and-throat/"
+                            class="nav-link speciality-link">ENT (Ear, Nose & Throat)</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/general-and-laparoscopic-surgery/"
+                            class="nav-link speciality-link">General & Laparoscopic Surgery</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/general-physician/"
+                            class="nav-link speciality-link">General Physician</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/genetic-counselling/"
+                            class="nav-link speciality-link">Genetic Counselling</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/geriatric-specialties/"
+                            class="nav-link speciality-link">Geriatric Specialties</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/gynecology/"
+                            class="nav-link speciality-link">Gynecology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/head-and-necksurgery/"
+                            class="nav-link speciality-link">Head & Neck Surgery</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/headache-clinic/"
+                            class="nav-link speciality-link">Headache Clinic</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/hematology-and-bmt/"
+                            class="nav-link speciality-link">Hematology & BMT</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/hpb-and-liver-transplant/"
+                            class="nav-link speciality-link">HPB & Liver Transplant</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/infectious-diseases/"
+                            class="nav-link speciality-link">Infectious Diseases</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/internal-medicine/"
+                            class="nav-link speciality-link">Internal Medicine</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/interventional-radiology/"
+                            class="nav-link speciality-link">Interventional Radiology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/laboratory-medicine/"
+                            class="nav-link speciality-link">Laboratory Medicine</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/medical-gastroenterology-and-liver-diseases/"
+                            class="nav-link speciality-link">Medical Gastroenterology & Liver Diseases</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/medical-oncology/"
+                            class="nav-link speciality-link">Medical Oncology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/minimally-invasive-and-laparoscopic-surgery/"
+                            class="nav-link speciality-link">Minimally Invasive & Laparoscopic Surgery</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/nephrology-and-dialysis/"
+                            class="nav-link speciality-link">Nephrology & Dialysis</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/neurology/"
+                            class="nav-link speciality-link">Neurology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/neurosurgery-and-spine-surgery/"
+                            class="nav-link speciality-link">Neurosurgery & Spine Surgery</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/nuclear-medicine/"
+                            class="nav-link speciality-link">Nuclear Medicine</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/nutrition-and-dietetics/"
+                            class="nav-link speciality-link">Nutrition & Dietetics</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/obstetrics/"
+                            class="nav-link speciality-link">Obstetrics</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/occupational-therapy/"
+                            class="nav-link speciality-link">Occupational Therapy</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/oncology/"
+                            class="nav-link speciality-link">Oncology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/oncoplastic-surgery/"
+                            class="nav-link speciality-link">Oncoplastic Surgery</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/ophthalmology/"
+                            class="nav-link speciality-link">Ophthalmology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/orthopedics/"
+                            class="nav-link speciality-link">Orthopedics</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/orthopedics-arthroscopy-and-sports-medicine/"
+                            class="nav-link speciality-link">Orthopedics-Arthroscopy & Sports Medicine</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/pain-medicine/"
+                            class="nav-link speciality-link">Pain Medicine</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/pediatric-allergy/"
+                            class="nav-link speciality-link">Pediatric Allergy</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/pediatric-intensive-care-unit/"
+                            class="nav-link speciality-link">Pediatric Intensive Care Unit</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/pediatric-subspecialties/"
+                            class="nav-link speciality-link">Pediatric Subspecialties</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/pediatric-surgery/"
+                            class="nav-link speciality-link">Pediatric Surgery</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/pediatrics-and-neonatology/"
+                            class="nav-link speciality-link">Pediatrics & Neonatology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/physical-medicine-and-rehabilitation/"
+                            class="nav-link speciality-link">Physical Medicine & Rehabilitation</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/physiotherapy/"
+                            class="nav-link speciality-link">Physiotherapy</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/plastic-and-reconstructive-surgery/"
+                            class="nav-link speciality-link">Plastic & Reconstructive Surgery</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/psychiatry/"
+                            class="nav-link speciality-link">Psychiatry</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/psychology/"
+                            class="nav-link speciality-link">Psychology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/pulmonology/"
+                            class="nav-link speciality-link">Pulmonology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/radiation-oncology/"
+                            class="nav-link speciality-link">Radiation Oncology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/radiology/"
+                            class="nav-link speciality-link">Radiology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/rheumatology/"
+                            class="nav-link speciality-link">Rheumatology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/robotic-surgery/"
+                            class="nav-link speciality-link">Robotic Surgery</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/sleep-medicine-specialties/"
+                            class="nav-link speciality-link">Sleep Medicine Specialties</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/speech-therapy/"
+                            class="nav-link speciality-link">Speech Therapy</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/sports-medicine-specialties/"
+                            class="nav-link speciality-link">Sports Medicine Specialties</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/surgical-gastroenterology/"
+                            class="nav-link speciality-link">Surgical Gastroenterology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/surgical-oncology/"
+                            class="nav-link speciality-link">Surgical Oncology</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/thoracic-surgery/"
+                            class="nav-link speciality-link">Thoracic Surgery</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/transplant-surgery/"
+                            class="nav-link speciality-link">Transplant Surgery</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/urology-and-renal-transplants/"
+                            class="nav-link speciality-link">Urology & Renal Transplants</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/vascular-surgery/"
+                            class="nav-link speciality-link">Vascular Surgery</a>
+                        </li>
+                      <!--</div>-->
+                                          <!--<div class="col-md-4">-->
+                        <li class="col-md-3 col-sm-4 col-12 speciality-item" >
+                          <a href="https://continentalhospitals.com/specialities/weight-loss-bariatric-surgery-center/"
+                            class="nav-link speciality-link">Weight Loss Bariatric Surgery Center</a>
+                        </li>
+                      <!--</div>-->
+                                        <!-- <div class="col-md-4">
+                    <!--        <li>-->
+                    <!--          <a href="https://continentalhospitals.com/craniofacial-surgery/"-->
+                    <!--            class="nav-link">Craniofacial Surgery</a>-->
+                    <!--        </li>-->
+                    <!--    </div> -->
+                    <!--<div class="col-md-4">-->
+                      <li class="col-md-4 col-sm-4 col-6 speciality-item" >
+                        <a href="https://continentalfertilitycenter.com/"
+                          class="nav-link">Fertility</a>
+                      </li>
+                    <!--</div>-->
+                  </ul>
+                </li>
+                <li class="has-children">
+                  <a href="#" class="nav-link">Departments</a>
+                  <ul class="dropdown arrow-top list-items2">
+                    <li>
+                      <a href="https://continentalhospitals.com/heart-center/">Continental Heart Centre</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalfertilitycenter.com/">Continental Fertility Centre</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/continental-cancer-centre/">Continental Cancer Centre</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/continental-aesthetic-centre/">Continental Aesthetic Centre</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/gastroenterology-department/">Continental Gastroenterology
+                        Centre</a>
+                    </li>
+                     <li>
+                         <a href="https://continentalhospitals.com/spine-centre/">Continental Spine Centre</a>
+                    </li>
+                     <li>
+                         <a href="https://continentalhospitals.com/obesity-weight-loss-center/">Obesity & Weight Loss Center</a>
+                    </li>
+                     <li>
+                         <a href="https://continentalhospitals.com/brain-tumor-center/">Brain Tumor Center</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/vitanova-rehabilitation-centre/">Vitanova Rehabilitation
+                        Centre</a>
+                    </li>
+                  </ul>
+                </li>
+      
+            <li class="has-children">
+                <a href="https://continentalhospitals.com/health-checkup/" class="nav-link">
+                    Health Checkup
+                </a>
+            
+                <ul class="dropdown arrow-top d-flex flex-wrap align-items-start justify-content-start list-items p-3 row health-check-cls"
+                    type="none" id="healt_check_code">
+            
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/adolescent-health-check-package/"
+                                       class="nav-link d-block">
+                                        Adolescent Health Check Package                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/advanced-cardiac-check/"
+                                       class="nav-link d-block">
+                                        Advanced Cardiac Check                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/basic-cardiac-check/"
+                                       class="nav-link d-block">
+                                        Basic Cardiac Check                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/basic-health-check/"
+                                       class="nav-link d-block">
+                                        Basic Health Check                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/birthing-program-package/"
+                                       class="nav-link d-block">
+                                        Birthing Program Package                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/cancer-screening-for-men/"
+                                       class="nav-link d-block">
+                                        Cancer Screening for Men                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/cancer-screening-for-women/"
+                                       class="nav-link d-block">
+                                        Cancer Screening for Women                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/complete-child-health-check/"
+                                       class="nav-link d-block">
+                                        Complete Child Health Check                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/diabetic-basic-check/"
+                                       class="nav-link d-block">
+                                        Diabetic Basic Check                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/diabetic-follow-up-check/"
+                                       class="nav-link d-block">
+                                        Diabetic Follow-up Check                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/full-body-health-check-up-package/"
+                                       class="nav-link d-block">
+                                        Full Body Health check up Package                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/geriatric-health-check-female/"
+                                       class="nav-link d-block">
+                                        Geriatric Health Check Female                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/geriatric-health-check-male/"
+                                       class="nav-link d-block">
+                                        Geriatric Health Check Male                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/hair-fall-check-male-and-female/"
+                                       class="nav-link d-block">
+                                        Hair Fall Check Male and Female                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/kidney-check/"
+                                       class="nav-link d-block">
+                                        Kidney Check                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/little-champs-kids-health-check/"
+                                       class="nav-link d-block">
+                                        Little Champs (Kids Health Check)                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/liver-check-advanced/"
+                                       class="nav-link d-block">
+                                        Liver Check Advanced                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/liver-check-basic/"
+                                       class="nav-link d-block">
+                                        Liver Check Basic                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/master-health-checkup-for-male/"
+                                       class="nav-link d-block">
+                                        Master Health Checkup for Male                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/master-health-checkup-package-female/"
+                                       class="nav-link d-block">
+                                        Master Health Checkup Package Female                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/orthopedic-health-check/"
+                                       class="nav-link d-block">
+                                        Orthopedic Health check                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/platinum-health-check-female/"
+                                       class="nav-link d-block">
+                                        Platinum Health Check Female                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/platinum-health-check-male/"
+                                       class="nav-link d-block">
+                                        Platinum Health Check Male                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/quick-health-check/"
+                                       class="nav-link d-block">
+                                        Quick Health Check                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/sports-fitness-check/"
+                                       class="nav-link d-block">
+                                        Sports Fitness Check                                    </a>
+                                </li>
+                            </div>
+                                                <div class="col-md-6">
+                                <li>
+                                    <a href="https://continentalhospitals.com/health-checkup/well-womens-check/"
+                                       class="nav-link d-block">
+                                        Well Women's Check                                    </a>
+                                </li>
+                            </div>
+                                
+                </ul>
+            </li>
+                <li>
+                  <a target="_blank" href="https://continentalhospitals.com/international-patients/"
+                    class="nav-link">International Patients</a>
+                </li>
+                <li class="has-children">
+                  <a href="#" class="nav-link">Corporate</a>
+                  <ul class="dropdown arrow-top list-items2" id="corporate_data" >
+                    <li>
+                      <a href="https://continentalhospitals.com/about-us/" class="nav-link">About Us</a>
+                    </li>
+                    <li class="has-children">
+                      <a href="https://continentalhospitals.com/management/" class="nav-link">Management</a>
+                      <ul class="dropdown arrow-top list-items2 ml-2">
+                                                  <li>
+                            <a href="https://continentalhospitals.com/management/dr-guru-n-reddy/"
+                              class="nav-link">Dr Guru N Reddy   </a>
+                          </li>
+                                                  <li>
+                            <a href="https://continentalhospitals.com/management/mr-t-raghunath-reddy/"
+                              class="nav-link">Mr T Raghunath Reddy   </a>
+                          </li>
+                                                  <li>
+                            <a href="https://continentalhospitals.com/management/mr-rishi-n-reddy/"
+                              class="nav-link">Mr Rishi N Reddy   </a>
+                          </li>
+                                                  <li>
+                            <a href="https://continentalhospitals.com/management/reva-reddy/"
+                              class="nav-link">Mr Reva Reddy   </a>
+                          </li>
+                                              </ul>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/news/" class="nav-link">Media</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/our-location/" class="nav-link">Our Location</a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/watch?v=j6qPVVi0Q5A" target="_blank" class="nav-link">Hospital
+                        Video <!--i class="glow-button fa-brands fa-youtube"></i--></a>
+                    </li>
+                    <li><a href="https://continentalhospitals.com/events/" class="nav-link">Events</a></li>
+                    <li>
+                      <a href="https://continentalhospitals.com/academics/" target="_blank" class="nav-link">Academics</a>
+                    </li>
+                       <li>
+                          <a href="https://www.continentalhealthfoundation.com/">Continental Health Foundation</a>
+                      
+                    </li>
+                  </ul>
+                </li>
+                <!-- <li>
+                  <a href="</?php echo base_url(); ?>academics" class="nav-link">Academics</a>
+                </li> -->
+                <li class="mb-3 mb-lg-0" >
+                  <a href="https://continentalhospitals.com/blog/" class="nav-link">Blog</a>
+                </li>
+                  <div class="mt-3 d-lg-none d-md-block">
+                  <b class="side_headings" >For Quick Response</b>
+
+                  <div class="">
+                    <!--<img src="https://continentalhospitals.com/images/ambulance.png" alt="" style="width:30px">-->
+                    <a href="tel:04067000111">
+                      <button class="common_one"><i class="fa-solid fa-truck-medical me-3"></i> 24/7 Emergency Care Now</button>
+                    </a>
+                  </div>
+                  <a href="tel:04067000000"><button class="common_two"><i class="fa-solid fa-phone-volume me-3"></i>  Call Us Anytime Now</button></a>
+                  <a href="https://wa.me/917799360360?text=Hi" ><button class="common_three"><i
+                        class="fa-brands fa-whatsapp me-3"></i> Chat Via WhatsApp Now </button></a>
+                  <a href="https://www.continentalhospitals.com/free-second-opinion/"><button class="common_four"><i
+                        class="fa-solid fa-hospital me-3" style="color:#117d78"></i> Get Free Second Opinion</button></a>
+                </div>
+              
+       
+              </ul>
+            </nav>
+          </div>
+          <div class="toggle-button d-inline-block d-lg-none px-3">
+            <a href="" class="site-menu-toggle py-5 js-menu-toggle text-black">
+              <span class="icon-menu h3"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <!--sm-search input field start-->
+    <div class="row d-md-none ">
+      <!--sm-search input field end-->
+      <!--emergenct-call start-->
+      <div class="col-12  m-0 p-0 d-flex">
+        <a href="tel:04067000000" style="width: 50%;">
+          <div class="eme-call p-3  text-center">
+            <div class="mobcalltext4"> For Appointments </div>
+            <div class="mobcalltext45"><img src="https://continentalhospitals.com/assets/website/images/mobcall.webp" alt="" />
+              04067 000 000 </div>
+          </div>
+        </a>
+        <a href="tel:04067000111" style="width: 50%;">
+          <div class="eme-emeg p-3  text-center">
+            <div class="mobcalltext4">
+              Emergency
+            </div>
+            <div class="mobcalltext45">
+              <img src="https://continentalhospitals.com/assets/website/images/mobemg.webp" />
+              04067 000 111
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+  <!-- end menu-->
+  <!--<section class="error-section centred p_relative">-->
+<!--    <div class="auto-container">-->
+<!--        <div class="inner-box">-->
+<!--            <h1>404</h1>-->
+<!--            <h2>Page Not Found</h2>-->
+<!--            <p>The page you are looking for does not exist.</p>-->
+<!--            <a href="https://continentalhospitals.com/" class="theme-btn btn-one">Back to homepage</a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+
+  <title>404 – Page Not Found</title>
+
+
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    /* 404 Banner */
+    .error-banner {
+    background: linear-gradient(180deg, rgba(230, 242, 245, 0), #e6f2f5 33%, #d9f0e9);
+
+
+      color: #fff;
+      text-align: center;
+    }
+
+    .error-banner h1 {
+      font-size: 80px;
+      font-weight: 800;
+    }
+
+    .error-banner p {
+      font-size: 20px;
+      opacity: 0.9;
+    }
+
+    /* Search Box */
+    .search-box input {
+      border-radius: 50px;
+      padding: 14px 20px;
+    }
+
+    .search-box button {
+      border-radius: 50px;
+      background-color: #fff;
+      color: #117d78;
+      padding: 12px 30px;
+      font-weight: 600;
+    }
+
+    /* Section Titles */
+    .section-title {
+      color: #117d78;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    /* Left Form Card */
+    .form-card {
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      background: #fff;
+    }
+
+    .form-card input,
+    .form-card select {
+      padding: 12px;
+      border-radius: 8px;
+    }
+
+    .btn-submit {
+      width: 100%;
+      background: #117d78;
+      color: #fff;
+      padding: 14px;
+      border-radius: 50px;
+      border: none;
+    }
+
+    /* Right Side Icon Boxes */
+    .icon-box {
+      background: #fff;
+      border-radius: 16px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+      transition: 0.3s;
+      margin-bottom: 12px;
+    }
+
+    .icon-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .icon-box i {
+      font-size: 40px;
+      color: #117d78;
+      margin-bottom: 12px;
+    }
+
+    .icon-box h5 {
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+    .form-control{
+        margin-bottom: 10px;
+    }
+    
+    @media (max-width:768px){
+        .error_mesg{
+            width: 100% !important;
+        }
+    }
+  </style>
+
+  <!-- ================================
+     404 BANNER SECTION
+  ================================= -->
+  <section class="error-banner">
+    <div class="container">
+        <img src="https://continentalhospitals.com/chhattisgarh/assets/hospitals/img/error_new.webp" class="error_mesg"  />
+      <!--<h1>404</h1>-->
+      <p>Oops! The page you are looking for is not available.</p>
+
+      <!--<div class="search-box d-flex justify-content-center mt-4">-->
+      <!--  <input type="text" class="form-control w-50 me-2" placeholder="Search doctors, specialties..." />-->
+      <!--  <button class="btn">Search</button>-->
+      <!--</div>-->
+    </div>
+  </section>
+
+  <!-- ================================
+     FIND A DOCTOR & ICON BOXES
+  ================================= -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center">Find a Doctor</h2>
+
+      <div class="row g-4">
+
+        <!-- LEFT SIDE FORM -->
+        <div class="col-md-6">
+          <div class="form-card">
+   
+
+                                <div class="card-body">
+                            <form id="contact-form" class="mobform" action="https://continentalhospitals.com/contact/contact/"
+                                method="POST">
+                                <div class="diseconheadings pb-1">
+                                                                            <h4>Enquire Now</h4>
+                                                                    </div>
+                                <div class="row">
+                                    <div class="err col-md-12 col-sm-12">
+                                        <div class="form-group">
+                                            <input type="text" id="name" class="form-control" name="name"
+                                                placeholder="Name">
+                                            <input type="hidden" id="entity_type" name="entity_type"
+                                                value="Home">
+                                            <input type="hidden" name="entity_id"
+                                                value="0">
+                                            <input type="hidden" value="Website" id="source"
+                                                name="source">
+                                            <input type="hidden" value="CPC" id="medium"
+                                                name="medium">
+                                            <input type="hidden" value="logo.png" id="campaign"
+                                                name="campaign">
+                                        </div>
+                                    </div>
+                                    <div class="err col-md-12 col-sm-12">
+                                        <div class="form-group">
+                                            <input type="email" id="email" class="form-control" name="email"
+                                                placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="err col-md-12 col-sm-12">
+                                                                            </div>
+                                    <div class="err col-md-12 col-sm-12">
+                                        <div class="form-group">
+                                            <input type="text" id="phone" class="form-control" name="phone"
+                                                placeholder="Phone Number">
+                                        </div>
+                                    </div>
+                                                                            <div class="err col-md-12 col-sm-12">
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="message" name="message"
+                                                    placeholder="Health Concern/Message" rows="2"></textarea>
+                                            </div>
+                                        </div>
+                                                                        <div class="err col-md-12 col-sm-12">
+                                                                            </div>
+                                    <div class="col-md-12 col-sm-12 mt-2">
+                                        <div class="g-recaptcha"
+                                            data-sitekey="6LdYOwETAAAAAFfUMC9CDEVrLiZuWHx54592HASR"
+                                            data-callback="enableBtn"></div>
+                                    </div>
+
+                                </div>
+                                <button type="submit" class="apt_buttons mt-4 formbutton ssd" id="submit_details"
+                                    >
+                                    Submit <i class="fa fa-arrow-right p-1" style="font-size:16px; "
+                                        aria-hidden="true"></i>
+                                </button>
+                            </form>
+                        </div>
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE FEATURE BOXES -->
+        <div class="col-md-6">
+          <div class="row g-4">
+
+            <div class="col-6">
+                <a href="https://continentalhospitals.com/doctors" >
+              <div class="icon-box">
+                <i class="bi bi-heart-pulse"></i>
+                <h5>Doctors</h5>
+              </div>
+              </a>
+            </div>
+            
+       
+
+            <div class="col-6">
+              <a href="https://continentalhospitals.com/health-checkup" >
+              <div class="icon-box">
+                <i class="bi bi-shield-check"></i>
+                <h5>Health Checkups</h5>
+              </div>
+                </a>
+            </div>
+
+            <div class="col-6">
+              <a href="https://continentalhospitals.com/treatments" >
+              <div class="icon-box">
+                <i class="bi bi-clipboard2-pulse"></i>
+                <h5>Treatments</h5>
+              </div>
+               </a>
+            </div>
+
+            <div class="col-6">
+              <a href="https://teleconsult.continentalhospitals.com/#/bookingrequest" >
+              <div class="icon-box">
+                <i class="bi bi-camera-video"></i>
+                <h5>Video Consultation</h5>
+              </div>
+                </a>
+            </div>
+            <div class="col-6">
+              <a href="https://continentalhospitals.com/specialities" >
+              <div class="icon-box">
+                <i class="bi bi-heart-pulse"></i>
+                <h5>Specialities</h5>
+              </div>
+                </a>
+            </div>
+            <div class="col-6">
+               <a href="https://continentalhospitals.com/free-second-opinion" >
+              <div class="icon-box">
+                <i class="bi bi-journal-medical"></i>
+                <h5>Free Second Opinion</h5>
+              </div>
+               </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!--Footer Section Start-->
+      <!--========================= APP Layout mobile application =====================================-->
+    <section class="specility_wise ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <h3 class="hlhead mb-3">Download the Continental <br> Connect App</h3>
+                    <p>Stay connected with Continental Hospitals anytime, anywhere.</p>
+                    <div class="mb-3 mt-2 all_description_data">
+                        <div>
+                            <div> <i class="fa-regular fa-star"></i></div> Book doctor appointments & video
+                            consultations instantly
+                        </div> 
+                        <div>
+                             <div> <i class="fa-regular fa-star"></i></div> Access prescriptions, lab reports & discharge summaries
+                        </div>
+                     
+                        <div>
+                            <div> <i class="fa-regular fa-star"></i></div> Track your health check packages, bills & renewal reminders
+                        </div>
+                        <div>
+                            <div> <i class="fa-regular fa-star"></i></div> Manage your family’s medical records securely in one place
+                        </div>
+
+                    </div>
+                    <p>Download the app now <br>
+                        for faster, smarter, paperless healthcare</p>
+                    <div class="mt-4 app_buttons">
+                        <a href="https://play.google.com/store/apps/details?id=com.continentalhealthcare.patientrecords&hl=en_IN" class="play-store"></a>
+                        <a href="https://apps.apple.com/us/app/continental-connect/id6752923091" class="play-store ios"></a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <img src="https://continentalhospitals.com/images/continetal_connect_app.webp"
+                        alt="" width="100%" loading="lazy" >
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--========================= APP Layout mobile application =====================================-->
+  <footer id="footer" class="dark bg-color border-top-0"
+    style="background: url('https://continentalhospitals.com/assets/website/images/flower_disign.png') no-repeat bottom center / contain;"
+    data-bs-theme="dark">
+    <div class="container">
+      <div class="footer-widgets-wrap">
+        <div class="row justify-content-center">
+          <div class="col-md-12 mb-3 text-center">
+            <div class="d-md-block">
+              <img src="https://continentalhospitals.com/assets/website/images/logo (1).png" alt="logo"
+                class="footer-logo mb-3 " />
+              <!-- <p class="footer-description ">There are many variations<br>of passages of Lorem Ipsum
+                  available,<br>but the majority have suffered alteration<br>in some form, by injected
+                  
+                  humour<Br>or randomised words which don't look<br>even slightly believable.</p> -->
+            </div>
+          </div>
+          <div class="w-100 clear line"></div>
+          <div class="col-lg-12">
+            <div class="widget">
+              <div class="row col-mb-30">
+                <div class="col-lg-3 col-6 widget_links">
+                  <ul>
+                    <li><a href="https://continentalhospitals.com/book-doctor-appointment">Book Doctor Appointment Hyderabad</a>
+                    </li>
+                    <li><a href="https://teleconsult.continentalhospitals.com">Book Online Doctor Consultation</a></li>
+                    <li><a href="https://continentalhospitals.com/about-us">About Us</a></li>
+                    <li><a href="https://continentalhospitals.com/doctors">Find a Doctor</a></li>
+                    <li><a href="https://continentalhospitals.com/specialities">Our Specialities</a></li>
+                    <li><a href="https://continentalhospitals.com/clinics">Clinics</a></li>
+                    <li><a href="https://continentalhospitals.com/our-location">Our Locations</a></li>
+                    <li><a href="https://continentalhospitals.com/patient-info">Patient Information</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-6 widget_links">
+                  <ul>
+                    <li><a href="https://continentalhospitals.com/international-patients">International Patients</a></li>
+                    <li><a href="https://continentalhospitals.com/visitor-guide">Visitors</a></li>
+                    <li><a href="https://continentalhospitals.com/news">Media & Events</a></li>
+                    <li><a href="https://continentalhospitals.com/blog">Health Library Blog</a></li>
+                    <li><a href="https://continentalhospitals.com/health-checkup">Health Screening</a></li>
+                    <li><a href="https://continentalhospitals.com/patient-testimonials/">Health Stories</a></li>
+                    <li><a href="https://continentalhospitals.com/events/" class="nav-link">Events</a></li>
+                    <li>
+                      <a href="https://continentalhospitals.com/diseases/" class="nav-link">Diseases and Conditions</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/transplants/" class="nav-link">Transplants</a>
+                    </li>
+                    <li>
+                      <a href="https://continentalhospitals.com/online-doctor-consultation/" class="nav-link">Online
+                        Consultation</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-6 widget_links">
+                  <ul>
+                    <li><a href="https://continentalhospitals.com/academics">Academics</a></li>
+                    <li><a href="https://hr1.to//a86c98">Careers</a></li>
+                    <li><a href="https://continentalhospitals.com/patient-testimonials">Testimonials</a></li>
+                    <li><a href="https://continentalhospitals.com/sitemap">Sitemap</a></li>
+                    <li><a href="https://continentalhospitals.com/contact-us">Contact Us</a></li>
+                    <li><a href="https://continentalhospitals.com/pages/bio-medical-waste-data">Bio-Medical Waste</a></li>
+                    <li><a href="https://continentalhospitals.com/online-doctor-consultation">Online Consultation</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-6 widget_links">
+                  <div class="footer-contact d-md-block">
+           
+                    <div class="d-flex mb-2">
+                      <img src="https://continentalhospitals.com/assets/website/images/location.png" alt="location"
+                        class="mt-2" loading="lazy" />
+                      <a href="https://maps.app.goo.gl/zrh7Dqjjyk6SwEeY6?g_st=iw" target="_blank">
+                        <p>Plot No 3, Road No. 2, Financial District, Gachibowli, Nanakaramguda                                                    Hyderabad                          TS-
+                          500032.
+                        </p>
+                      </a>
+                    </div>
+                    <div class="d-flex mb-2">
+                      <img src="https://continentalhospitals.com/assets/website/images/call.png" alt="mobile" loading="lazy" />
+                      <a href="tel:04067000000">
+                        <p>04067 000 000</p>
+                      </a>
+                    </div>
+                    <div class="d-flex mb-2">
+                      <img src="https://continentalhospitals.com/assets/website/images/email.png" alt="email" loading="lazy" />
+                      <a href="/cdn-cgi/l/email-protection#f7868292859e9284b7949899839e99929983969b9f9884879e83969b84d994989a">
+                        <p style="word-break: break-word;"><span class="__cf_email__" data-cfemail="dfaeaabaadb6baac9fbcb0b1abb6b1bab1abbeb3b7b0acafb6abbeb3acf1bcb0b2">[email&#160;protected]</span></p>
+                      </a>
+                    </div>
+                    <div class="d-flex">
+                      <img src="https://continentalhospitals.com/assets/website/images/fax.png" alt="fax" loading="lazy" />
+                      <p>040 67000 111</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--hr /-->
+              <div class="popular_search_div">
+                <div class="row">
+                  <div class="social-icons">
+                    <strong>FOLLOW US :</strong>
+                    <a target="_blank" href="https://www.instagram.com/continental_hospitals/">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/ContinentalHospitals">
+                     <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a target="_blank" href="https://twitter.com/Continental_hyd">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a target="_blank" href="https://www.youtube.com/@ContinentalHospitalsHyd/featured">
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/company/1261080/admin/feed/posts/">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="popular_search">
+                    <h6 class="text-center"><button class="collapsible"> POPULAR SEARCHES </button></h6>
+                  </div>
+                </div>
+                <div class="content" id="collapsible_footer">
+                  <div class="row col-mb-30 secondary-footer">
+                    <div class="col-lg-5 widget_links">
+                      <h4 class="text-center"> DOCTORS BY SPECIALITIES</h4>
+                      <div class="row col-mb-30">
+                        <div class="col-lg-6 widget_links">
+                          <ul>
+                            <li><a href="https://continentalhospitals.com/doctor-list/laparoscopic-surgeon/">
+                                Best Bariatric Surgeon in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/cardiologist/"> Best Cardiologist in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/dermatologist/">
+                                Best Dermatologist in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/ent-specialists/"> Best ENT Specialist in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/endocrinologist-and-diabetologist/">
+                                Best Endocrinologist in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/surgical-gastroenterologist/">
+                                Best Gastroenterologist in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/general-physician/"> Best General
+                                Physician in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/laparoscopic-surgeon/">
+                                Best General Surgeon in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/gynecologist/"> Best Gynecologist in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/hematologist/"> Best Hematologist in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/transplants/heart-transplant/"> Best Heart Transplant
+                                Surgeon in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/transplants/kidney-transplant/"> Best Kidney
+                                Transplant Surgeon in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/transplants/liver-transplant/"> Best Liver Transplant
+                                Surgeon in Hyderabad</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-6 widget_links">
+                          <ul>
+                            <li><a href="https://continentalhospitals.com/doctor-list/nephrologist/">
+                                Best Nephrologist in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/neurologist/"> Best Neurologist in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/neurosurgeon-and-spine-surgeon/">
+                                Best Neurosurgeon in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/medical-oncologist/"> Best Oncologist in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/ophthalmologist/"> Best Ophthalmologist in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/orthopedic-doctor/"> Best Orthopedic
+                                Doctor in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/pediatrician/">
+                                Best Pediatrician in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/physiotherapist/"> Best Physiotherapist in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/plastic-and-reconstructive-surgeon/">
+                                Best Plastic Surgeon in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/psychiatrist/"> Best Psychiatrist in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/pulmonologist/"> Best Pulmonologist in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/radiation-oncologist/"> Best Radiologist
+                                in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/rheumatologist/"> Best Rheumatologist in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/cardiologist/"> Best Vascular Surgeon in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/doctor-list/craniofacial-surgery/"> Best Craniofacial
+                                Surgeon in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/continental-fertility-centre/"> Best IVF Specialist in
+                                Hyderabad</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="col-lg-7 widget_links">
+                      <h4 class="text-center"> HYDERABAD</h4>
+                      <div class="row col-mb-30">
+                        <div class="col-lg-6 widget_links">
+                          <ul>
+                            <li><a
+                                href="https://continentalhospitals.com/specialities/weight-loss-bariatric-surgery-center">Best
+                                Bariatric Surgeon in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/cardiology">Best Cardiology in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/dermatology">Best Dermatology in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/ent-ear-nose-and-throat">Best ENT
+                                Hospital in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/endocrinology-and-diabetology">Best
+                                Endocrinology in Hyderabad</a></li>
+                            <li><a
+                                href="https://continentalhospitals.com/specialities/medical-gastroenterology-and-liver-diseases">Best
+                                Gastroenterology in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/general-physician">Best General Physician
+                                in Hyderabad</a></li>
+                            <li><a
+                                href="https://continentalhospitals.com/specialities/minimally-invasive-and-laparoscopic-surgery">Best
+                                General Surgeon in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/gynecology">Best Gynecology in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/hematology-and-bmt">Best BMT & Hematology
+                                in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/cardiology">Best Heart Transplantation
+                                Hospital in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/urology-and-renal-transplants">Best
+                                Kidney Transplantation Hospital in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/hpb-and-liver-transplant">Best Liver
+                                Transplantation Hospital in Hyderabad</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-6 widget_links">
+                          <ul>
+                            <li><a href="https://continentalhospitals.com/specialities/nephrology-and-dialysis">Best Nephrology
+                                in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/neurology">Best Neurology in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/neurosurgery-and-spine-surgery">Best
+                                Neurosurgery Hospital in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/medical-oncology">Best Oncology in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/ophthalmology">Best Ophthalmology in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/orthopedics">Best Orthopedic Hospital in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/pediatric-intensive-care-unit">Best
+                                Pediatric Hospital in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/physiotherapy">Best Physiotherapy in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/plastic-and-reconstructive-surgery">Best
+                                Plastic Surgeon in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/psychiatry">Best Psychiatry in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/pulmonology">Best Pulmonology in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/radiology-and-nuclear-medicine">Best
+                                Radiology in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/rheumatology">Best Rheumatology in
+                                Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/craniofacial-surgery">Best Craniofacial
+                                in Hyderabad</a></li>
+                            <li><a href="https://continentalhospitals.com/specialities/continental-fertility-centre">Best IVF
+                                Centre in Hyderabad</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--hr /-->
+          <div class="col-lg-12 mt-5 mt-lg-0 text-center text-lg-end">
+            <div class="widget">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="footer-bottom d-flex justify-content-between pb-3">
+                    <div class="bottom-details">
+                      <div class="row">
+                        <div class="col-lg-12 widget_links">
+                          <ul class="d-flex">
+                            <li><a href="https://continentalhospitals.com/">Copyright  <i class="fa-regular fa-copyright"></i> 2025
+                                Continental Hospitals</a>All Rights Reserved</li>
+                          </ul>
+                          <ul class="pages d-flex">
+                                                          <li><a
+                                  href="https://continentalhospitals.com/pages/terms-and-conditions">Terms And Conditions</a>
+                              </li>
+                                                            <li><a
+                                  href="https://continentalhospitals.com/pages/privacy-policy">Privacy​ Policy</a>
+                              </li>
+                                                            <li><a
+                                  href="https://continentalhospitals.com/pages/user-consent-and-data-usage-policy">User consent & data usage policy</a>
+                              </li>
+                                                            <li><a
+                                  href="https://continentalhospitals.com/pages/social-media-policy">Social Media Policy</a>
+                              </li>
+                                                            <li><a
+                                  href="https://continentalhospitals.com/pages/telemedicine-consultation-policy">Telemedicine Consultation Policy</a>
+                              </li>
+                                                            <li><a
+                                  href="https://continentalhospitals.com/pages/bio-medical-waste-data">Bio Medical Waste Data</a>
+                              </li>
+                                                            <li><a
+                                  href="https://continentalhospitals.com/pages/cookie-policy">Cookie Policy</a>
+                              </li>
+                                                        </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+  <ul id="global-search" class="ui-menu ui-widget ui-widget-content ui-autocomplete global-search-block ui-front">
+    <!-- top specialities -->
+       <div class="search-disease-container">
+      <div class="popular-disease">
+        <div class="heading-with-spotlight">
+          <div class="common-sub-heading">Top Specialties</div>
+          <div class="popular-disease-container">
+            <div class="popular-disease-item"
+              onclick="window.open('https://continentalhospitals.com/specialities/medical-oncology')">
+              <div class="clicked_cities">
+                <img src="https://continentalhospitals.com/images/specialities/oncology.png" alt="disease Circumcision" class=""
+                  loading="lazy">
+                <span>Oncology</span>
+              </div>
+            </div>
+            <div class="popular-disease-item" onclick="window.open('https://continentalhospitals.com/specialities/neurology')">
+              <div class="clicked_cities">
+                <img src="https://continentalhospitals.com/images/specialities/660d49b737a1afd4eeba533b0a2b1827.webp"
+                  alt="disease Piles" class="" loading="lazy">
+                <span>Neurology</span>
+              </div>
+            </div>
+            <div class="popular-disease-item"
+              onclick="window.open('https://continentalhospitals.com/specialities/medical-gastroenterology-and-liver-diseases')">
+              <div class="clicked_cities">
+                <img src="https://continentalhospitals.com/images/specialities/3da12740fc75d78610b1a6eae11ef83d.webp"
+                  alt="disease Cataract" class="" loading="lazy">
+                <span>Gastroenterology</span>
+              </div>
+            </div>
+            <div class="popular-disease-item" onclick="window.open('https://continentalhospitals.com/specialities/bariatric-surgery')">
+              <div class="clicked_cities">
+                <img src="https://continentalhospitals.com/images/specialities/bariatric-surgery.webp"
+                  alt="disease Kidney Stone" class="" loading="lazy">
+                <span>Bariatric Surgery</span>
+              </div>
+            </div>
+   
+            <div class="popular-disease-item"
+              onclick="window.open('https://continentalhospitals.com/specialities/hpb-and-liver-transplant')">
+              <div class="clicked_cities">
+                <img src="https://continentalhospitals.com/images/specialities/5fcb123611043c4aca69a0f8eadc1658.webp"
+                  alt="disease Abortion" class="" loading="lazy">
+                <span>Liver Transplant</span>
+              </div>
+            </div>
+            <div class="popular-disease-item"
+              onclick="window.open('https://continentalhospitals.com/specialities/urology-and-renal-transplants')">
+              <div class="clicked_cities">
+                <img src="https://continentalhospitals.com/images/specialities/c65dcfdd056015356a0abd913b81e019.webp"
+                  alt="disease Gynecomastia" class="" loading="lazy">
+                <span>Urology</span>
+              </div>
+            </div>
+            <div class="popular-disease-item"
+              onclick="window.open('https://continentalhospitals.com/specialities/orthopedics')">
+              <div class="clicked_cities">
+                <img src="https://continentalhospitals.com/images/specialities/0f920fb42f59993df1eac2689808e2d0.webp"
+                  alt="disease Lipoma" class="" loading="lazy">
+                <span>Orthopedics</span>
+              </div>
+            </div>
+            <div class="popular-disease-item" onclick="window.open('https://continentalhospitals.com/specialities/cardiology')">
+              <div class="clicked_cities">
+                <img src="https://continentalhospitals.com/images/specialities/aad8a251c9a33b099c2b7ac0717cd6c8.webp"
+                  alt="disease Kidney Stone" class="" loading="lazy">
+                <span>Cardiology</span>
+              </div>
+            </div>
+            <div class="popular-disease-item" onclick="window.open('https://continentalhospitals.com/specialities/internal-medicine')">
+              <div class="clicked_cities">
+                <img src="https://continentalhospitals.com/images/specialities/first-aid-kit.png"
+                  alt="disease Kidney Stone" class="" loading="lazy">
+                <span>General Medicine</span>
+              </div>
+            </div>
+            <div class="popular-disease-item" onclick="window.open('https://continentalhospitals.com/specialities/gynecology')">
+              <div class="clicked_cities">
+                <img src="https://continentalhospitals.com/images/specialities/gynecology.png"
+                  alt="disease Kidney Stone" class="" loading="lazy">
+                <span>Gynecology</span>
+              </div>
+            </div>
+            <div class="popular-disease-item" onclick="window.open('https://continentalhospitals.com/specialities/pediatrics-and-neonatology')">
+              <div class="clicked_cities">
+                <img src="https://continentalhospitals.com/images/specialities/pediatrics.png"
+                  alt="disease Kidney Stone" class="" loading="lazy">
+                <span>Pediatrics</span>
+              </div>
+            </div>
+             <div class="popular-disease-item"
+              onclick="window.open('https://continentalhospitals.com/specialities/pulmonology')">
+              <div class="clicked_cities">
+                <img src="https://continentalhospitals.com/images/specialities/151a3971461577b912c9fb654a067f8b.webp"
+                  alt="disease Fissure" class="" loading="lazy">
+                <span>Pulmonology</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="searched-disease"></div>
+      </div>
+    </div>
+    <!-- top specialities -->
+    <span id="doc_results" style="display:none">
+      <li class="ui-state-disabled ui-menu-item" aria-disabled="true">
+        <div id="ui-id-130" tabindex="-1" class="ui-menu-item-wrapper">
+          <img alt="Doctor" src="https://continentalhospitals.com/assets/website/images/dc-icon.png" loading="lazy">Doctor
+        </div>
+      </li>
+      <span id="doctor_search_data">
+      </span>
+    </span>
+    <span id="spec_results" style="display:none">
+      <li class="ui-state-disabled ui-menu-item" aria-disabled="true">
+        <div id="ui-id-136" tabindex="-1" class="ui-menu-item-wrapper"><img alt="Speciality"
+            src="https://continentalhospitals.com/assets/website/images/sp-icon.png">Symptoms & Speciality</div>
+      </li>
+      <span id="speciality_search_data">
+      </span>
+    </span>
+  </ul>
+  <!--Contact side start-->
+
+
+ 
+    <section class="icons_all_data d-none d-lg-block" id="actionButtons" >
+        <div class="icon-buttons">
+            <button class="icon-button doctor" onclick="window.location.href='https://continentalhospitals.com/online-doctor-consultation/speciality';">
+               <i class="fa-solid fa-video"></i>
+                <span> Video Consultation</span>
+            </button>
+            <button class="icon-button call" onclick="window.location.href='tel:04067000000';">
+                <i class="fa-solid fa-phone"></i>
+                <span>Call Us</span>
+            </button>
+            <button class="icon-button appointment" onclick="window.location.href='https://continentalhospitals.com/book-doctor-appointment';">
+                <i class="fa-solid fa-calendar-check"></i>
+                <span>Book An Appointment</span>
+            </button>
+            <button class="icon-button whatsapp" onclick="window.open('https://onelink.to/jtxbch');">
+               <i class="fa-solid fa-mobile"></i>
+                <span>Download Patient App</span>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- Bottom Navigation Bar -->
+    <div class="bottom-nav">
+    <a href="#" data-toggle="modal" data-target="#myModal">
+    <i class="fa-solid fa-calendar-check"></i>
+      <span>Appointment</span>
+    </a>
+    <a href="https://continentalhospitals.com/online-doctor-consultation/speciality/">
+    <i class="fa-solid fa-video"></i>
+      <span>Video Consultation</span>
+    </a>
+    <a href="https://wa.me/917799360360?text=Hi"target="_blank">
+    <i class="fa-brands fa-whatsapp "></i>
+      <span>WhatsApp</span>
+    </a>
+    <a href="tel:04067000000">
+ <i class="fa-solid fa-phone"></i>
+      <span>Call</span>
+    </a>
+
+  </div>
+  <!--Contact side end-->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Book Appointment</h4>
+        </div>
+        <form id="appointment-form" class="mobform" action="https://continentalhospitals.com/contact/appointment/"
+          method="POST">
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <h4>Appointment Details</h4>
+                <div class="row">
+                  <div class="err col-md-12 col-sm-12 pr-2">
+                    <div class="form-group">
+                      <select class="form-control" name="speciality_id" id="app_spec_id" required>
+                        <option value="">Select Speciality</option>
+                                                  <option value="59">Andrology                          </option>
+                                                  <option value="41">Anesthesiology                          </option>
+                                                  <option value="78">Audiology                          </option>
+                                                  <option value="87">Bariatric Surgery                          </option>
+                                                  <option value="25">Breast Clinic/Breast Oncology                          </option>
+                                                  <option value="1">Cardiology                          </option>
+                                                  <option value="42">Cardiology Pediatrics                          </option>
+                                                  <option value="28">Cardiothoracic & Vascular Surgery                          </option>
+                                                  <option value="43">Cosmetic Dentistry                          </option>
+                                                  <option value="75">Cosmetic Gynecology                          </option>
+                                                  <option value="49">Cosmetic Skin Care                          </option>
+                                                  <option value="56">Craniofacial Surgery                          </option>
+                                                  <option value="31">Critical Care Medicine                          </option>
+                                                  <option value="5">Dental & Maxillofacial Surgery                          </option>
+                                                  <option value="8">Dermatology                          </option>
+                                                  <option value="11">Emergency Medicine & Trauma                          </option>
+                                                  <option value="14">Endocrinology & Diabetology                          </option>
+                                                  <option value="17">ENT (Ear, Nose & Throat)                          </option>
+                                                  <option value="71">General & Laparoscopic Surgery                          </option>
+                                                  <option value="54">General Physician                          </option>
+                                                  <option value="69">Genetic Counselling                          </option>
+                                                  <option value="79">Geriatric Specialties                          </option>
+                                                  <option value="10">Gynecology                          </option>
+                                                  <option value="73">Head & Neck Surgery                          </option>
+                                                  <option value="44">Headache Clinic                          </option>
+                                                  <option value="2">Hematology & BMT                          </option>
+                                                  <option value="33">HPB & Liver Transplant                          </option>
+                                                  <option value="26">Infectious Diseases                          </option>
+                                                  <option value="23">Internal Medicine                          </option>
+                                                  <option value="72">Interventional Radiology                          </option>
+                                                  <option value="46">Laboratory Medicine                          </option>
+                                                  <option value="7">Medical Gastroenterology & Liver Diseases                          </option>
+                                                  <option value="4">Medical Oncology                          </option>
+                                                  <option value="20">Minimally Invasive & Laparoscopic Surgery                          </option>
+                                                  <option value="29">Nephrology & Dialysis                          </option>
+                                                  <option value="16">Neurology                          </option>
+                                                  <option value="32">Neurosurgery & Spine Surgery                          </option>
+                                                  <option value="77">Nuclear Medicine                          </option>
+                                                  <option value="47">Nutrition & Dietetics                          </option>
+                                                  <option value="34">Obstetrics                          </option>
+                                                  <option value="84">Occupational Therapy                          </option>
+                                                  <option value="88">Oncology                          </option>
+                                                  <option value="83">Oncoplastic Surgery                          </option>
+                                                  <option value="36">Ophthalmology                          </option>
+                                                  <option value="13">Orthopedics                          </option>
+                                                  <option value="19">Orthopedics-Arthroscopy & Sports Medicine                          </option>
+                                                  <option value="38">Pain Medicine                          </option>
+                                                  <option value="74">Pediatric Allergy                          </option>
+                                                  <option value="3">Pediatric Intensive Care Unit                          </option>
+                                                  <option value="86">Pediatric Subspecialties                          </option>
+                                                  <option value="48">Pediatric Surgery                          </option>
+                                                  <option value="6">Pediatrics & Neonatology                          </option>
+                                                  <option value="76">Physical Medicine & Rehabilitation                          </option>
+                                                  <option value="12">Physiotherapy                          </option>
+                                                  <option value="9">Plastic & Reconstructive Surgery                          </option>
+                                                  <option value="15">Psychiatry                          </option>
+                                                  <option value="45">Psychology                          </option>
+                                                  <option value="18">Pulmonology                          </option>
+                                                  <option value="24">Radiation Oncology                          </option>
+                                                  <option value="21">Radiology                          </option>
+                                                  <option value="35">Rheumatology                          </option>
+                                                  <option value="40">Robotic Surgery                          </option>
+                                                  <option value="81">Sleep Medicine Specialties                          </option>
+                                                  <option value="85">Speech Therapy                          </option>
+                                                  <option value="80">Sports Medicine Specialties                          </option>
+                                                  <option value="27">Surgical Gastroenterology                          </option>
+                                                  <option value="30">Surgical Oncology                          </option>
+                                                  <option value="70">Thoracic Surgery                          </option>
+                                                  <option value="82">Transplant Surgery                          </option>
+                                                  <option value="37">Urology & Renal Transplants                          </option>
+                                                  <option value="39">Vascular Surgery                          </option>
+                                                  <option value="22">Weight Loss Bariatric Surgery Center                          </option>
+                                              </select>
+                    </div>
+                  </div>
+                  <div class="err col-md-12 col-sm-12 pr-2">
+                    <div class="form-group">
+                      <select class="form-control doc_fil_data" name="doctor_id" id="app_doc_id" required>
+                        <option value="">Select Speciality First</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="err col-md-12 col-sm-12 pr-2">
+                    <div class="form-group">
+                      <input type="text" id='datetimepicker1' class="form-control" name="date"
+                        placeholder="Appointment Date">
+                    </div>
+                  </div>
+                  <div class="err col-md-12 col-sm-12 pr-2">
+                    <div class="form-group">
+                      <textarea class="form-control" id="message" name="message" placeholder="Health Concern/Message"
+                        rows="5"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h4>Patient Details</h4>
+                <div class="row">
+                  <div class="err col-md-12 col-sm-12 pl-2">
+                    <div class="form-group mb-10">
+                      <input type="text" id="name" class="form-control" name="name" placeholder="Name">
+                      <input type="hidden" value="Request Appointment" name="form_name">
+                      <input type="hidden" value="" id="source" name="source">
+                      <input type="hidden" value="" id="medium" name="medium">
+                      <input type="hidden" value="" id="campaign" name="campaign">
+                    </div>
+                  </div>
+                  <div class="err col-md-12 col-sm-12 pl-2">
+                    <div class="form-group">
+                      <select class="form-control" name="gender" id="gender" required>
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="err col-md-12 col-sm-12 pl-2">
+                    <div class="form-group">
+                      <input type="text" id="age" class="form-control" name="age" placeholder="Age">
+                    </div>
+                  </div>
+                  <div class="err col-md-12 col-sm-12 pl-2">
+                    <div class="form-group">
+                      <input type="text" id="location" class="form-control" name="location" placeholder="Location">
+                    </div>
+                  </div>
+                  <div class="err col-md-12 col-sm-12 pl-2">
+                    <div class="form-group">
+                      <input type="email" id="email" class="form-control" name="email" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="err col-md-12 col-sm-12 pl-2">
+                    <div class="form-group">
+                      <input type="number" id="phone" class="form-control" name="phone" placeholder="Phone Number">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--<div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn mr-0 centred">-->
+              <!--  <div class="g-recaptcha" data-sitekey="6LdYOwETAAAAAFfUMC9CDEVrLiZuWHx54592HASR"-->
+              <!--    data-callback="enableBtn"></div>-->
+              <!--</div>-->
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn theme-btn custom" id="submit_details" disabled>Submit</button>
+            <button type="button" class="btn theme-btn custom" data-dismiss="modal">Close</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="visitModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Get in touch with us</h4>
+        </div>
+        <form id="plan-visit-form" class="mobform" action="https://continentalhospitals.com/contact/visit_plan/" method="POST">
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="err col-md-12 col-sm-12">
+                    <div class="form-group mb-10">
+                      <input type="text" id="name" class="form-control" name="name" placeholder="Name">
+                      <input type="hidden" value="Plan your visit" name="form_name">
+                      <input type="hidden" value="" id="source" name="source">
+                      <input type="hidden" value="" id="medium" name="medium">
+                      <input type="hidden" value="" id="campaign" name="campaign">
+                    </div>
+                  </div>
+                  <div class="err col-md-12 col-sm-12">
+                    <div class="form-group">
+                      <select class="form-control" name="speciality" id="speciality" required>
+                        <option value="">Select Speciality</option>
+                                                  <option value="59">Andrology                          </option>
+                                                  <option value="41">Anesthesiology                          </option>
+                                                  <option value="78">Audiology                          </option>
+                                                  <option value="87">Bariatric Surgery                          </option>
+                                                  <option value="25">Breast Clinic/Breast Oncology                          </option>
+                                                  <option value="1">Cardiology                          </option>
+                                                  <option value="42">Cardiology Pediatrics                          </option>
+                                                  <option value="28">Cardiothoracic & Vascular Surgery                          </option>
+                                                  <option value="43">Cosmetic Dentistry                          </option>
+                                                  <option value="75">Cosmetic Gynecology                          </option>
+                                                  <option value="49">Cosmetic Skin Care                          </option>
+                                                  <option value="56">Craniofacial Surgery                          </option>
+                                                  <option value="31">Critical Care Medicine                          </option>
+                                                  <option value="5">Dental & Maxillofacial Surgery                          </option>
+                                                  <option value="8">Dermatology                          </option>
+                                                  <option value="11">Emergency Medicine & Trauma                          </option>
+                                                  <option value="14">Endocrinology & Diabetology                          </option>
+                                                  <option value="17">ENT (Ear, Nose & Throat)                          </option>
+                                                  <option value="71">General & Laparoscopic Surgery                          </option>
+                                                  <option value="54">General Physician                          </option>
+                                                  <option value="69">Genetic Counselling                          </option>
+                                                  <option value="79">Geriatric Specialties                          </option>
+                                                  <option value="10">Gynecology                          </option>
+                                                  <option value="73">Head & Neck Surgery                          </option>
+                                                  <option value="44">Headache Clinic                          </option>
+                                                  <option value="2">Hematology & BMT                          </option>
+                                                  <option value="33">HPB & Liver Transplant                          </option>
+                                                  <option value="26">Infectious Diseases                          </option>
+                                                  <option value="23">Internal Medicine                          </option>
+                                                  <option value="72">Interventional Radiology                          </option>
+                                                  <option value="46">Laboratory Medicine                          </option>
+                                                  <option value="7">Medical Gastroenterology & Liver Diseases                          </option>
+                                                  <option value="4">Medical Oncology                          </option>
+                                                  <option value="20">Minimally Invasive & Laparoscopic Surgery                          </option>
+                                                  <option value="29">Nephrology & Dialysis                          </option>
+                                                  <option value="16">Neurology                          </option>
+                                                  <option value="32">Neurosurgery & Spine Surgery                          </option>
+                                                  <option value="77">Nuclear Medicine                          </option>
+                                                  <option value="47">Nutrition & Dietetics                          </option>
+                                                  <option value="34">Obstetrics                          </option>
+                                                  <option value="84">Occupational Therapy                          </option>
+                                                  <option value="88">Oncology                          </option>
+                                                  <option value="83">Oncoplastic Surgery                          </option>
+                                                  <option value="36">Ophthalmology                          </option>
+                                                  <option value="13">Orthopedics                          </option>
+                                                  <option value="19">Orthopedics-Arthroscopy & Sports Medicine                          </option>
+                                                  <option value="38">Pain Medicine                          </option>
+                                                  <option value="74">Pediatric Allergy                          </option>
+                                                  <option value="3">Pediatric Intensive Care Unit                          </option>
+                                                  <option value="86">Pediatric Subspecialties                          </option>
+                                                  <option value="48">Pediatric Surgery                          </option>
+                                                  <option value="6">Pediatrics & Neonatology                          </option>
+                                                  <option value="76">Physical Medicine & Rehabilitation                          </option>
+                                                  <option value="12">Physiotherapy                          </option>
+                                                  <option value="9">Plastic & Reconstructive Surgery                          </option>
+                                                  <option value="15">Psychiatry                          </option>
+                                                  <option value="45">Psychology                          </option>
+                                                  <option value="18">Pulmonology                          </option>
+                                                  <option value="24">Radiation Oncology                          </option>
+                                                  <option value="21">Radiology                          </option>
+                                                  <option value="35">Rheumatology                          </option>
+                                                  <option value="40">Robotic Surgery                          </option>
+                                                  <option value="81">Sleep Medicine Specialties                          </option>
+                                                  <option value="85">Speech Therapy                          </option>
+                                                  <option value="80">Sports Medicine Specialties                          </option>
+                                                  <option value="27">Surgical Gastroenterology                          </option>
+                                                  <option value="30">Surgical Oncology                          </option>
+                                                  <option value="70">Thoracic Surgery                          </option>
+                                                  <option value="82">Transplant Surgery                          </option>
+                                                  <option value="37">Urology & Renal Transplants                          </option>
+                                                  <option value="39">Vascular Surgery                          </option>
+                                                  <option value="22">Weight Loss Bariatric Surgery Center                          </option>
+                                              </select>
+                    </div>
+                  </div>
+                  <div class="err col-md-12 col-sm-12">
+                    <div class="form-group">
+                      <input type="text" id="country" class="form-control" name="country" placeholder="Country">
+                    </div>
+                  </div>
+                  <div class="err col-md-4 col-sm-12">
+                    <div class="form-group">
+                      <select class="form-control" name="phone_code" id="phone_code" required>
+                        <option value="">Code</option>
+                        <option value="93">Afghanistan +93</option>
+                        <option value="358">Aland Islands +358</option>
+                        <option value="355">Albania +355</option>
+                        <option value="213">Algeria +213</option>
+                        <option value="1684">American Samoa +1684</option>
+                        <option value="376">Andorra +376</option>
+                        <option value="244">Angola +244</option>
+                        <option value="1264">Anguilla +1264</option>
+                        <option value="672">Antarctica +672</option>
+                        <option value="1268">Antigua and Barbuda +1268</option>
+                        <option value="54">Argentina +54</option>
+                        <option value="374">Armenia +374</option>
+                        <option value="297">Aruba +297</option>
+                        <option value="61">Australia +61</option>
+                        <option value="43">Austria +43</option>
+                        <option value="994">Azerbaijan +994</option>
+                        <option value="1242">Bahamas +1242</option>
+                        <option value="973">Bahrain +973</option>
+                        <option value="880">Bangladesh +880</option>
+                        <option value="1246">Barbados +1246</option>
+                        <option value="375">Belarus +375</option>
+                        <option value="32">Belgium +32</option>
+                  
+                    
+                      </select>
+                    </div>
+                  </div>
+                  <div class="err col-md-8 col-sm-8">
+                    <div class="form-group">
+                      <input type="number" id="phone" class="form-control" name="phone" placeholder="Phone Number">
+                    </div>
+                  </div>
+                  <div class="err col-md-12 col-sm-12">
+                    <div class="form-group">
+                      <input type="email" id="email" class="form-control" name="email" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="err col-md-12 col-sm-12">
+                    <div class="form-group">
+                      <textarea class="form-control" id="message" name="message" placeholder="Health Concern/Message"
+                        rows="5"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn theme-btn custom">Submit</button>
+            <button type="button" class="btn theme-btn custom" data-dismiss="modal">Close</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--======== whats up icon button code start here ================-->
+
+ <div class="whatsapp-container" id="whatsapp_button" >
+    <div class="whatsapp-message" id="whatsappMessage">
+      <div class="close-btn" onclick="closeWhatsAppMessage()">×</div>
+      Chat with us on <span>Whatsapp</span>
+    </div>
+    <div class="whatsapp-icon" onclick="window.open('https://wa.me/917799360360?text=Hi', '_blank')">
+      <img src="https://continentalhospitals.com/assets/website/images/whats_up_new.webp" alt="WhatsApp">
+    </div>
+  </div>
+   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    function closeWhatsAppMessage() {
+      document.getElementById('whatsappMessage').style.display = 'none';
+    }
+  </script>
+    <!--======== whats up icon button code end here ================-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='fas fa-angle-up'></i></button>
+  <script>var base_url = 'https://continentalhospitals.com/';</script>
+
+  <script src="https://continentalhospitals.com/assets/website/js/bootstrap.min.js" defer  ></script>
+  <script src="https://continentalhospitals.com/assets/website/js/jquery.sticky.js" defer ></script>
+  <script src="https://continentalhospitals.com/assets/website/js/main.js" defer ></script>
+
+  <script src="https://continentalhospitals.com/assets/website/slick/slick.js" type="text/javascript" charset="utf-8" defer ></script>
+  <script src="https://continentalhospitals.com/assets/website/js/sharetastic.js" defer ></script>
+  
+  <script src="https://continentalhospitals.com/assets/website/js/custom.min.js?v=1.0" defer></script>
+
+
+   <script>window.gtranslateSettings = {"default_language":"en","detect_browser_language":true,"url_structure":"sub_directory","languages":["en","te","hi","bn","ta","mr","ml","kn","gu","pa","ar","ur","sw","so","it","es","ne","ps","fa","pt","am","fr","ru","zh-CN"],"wrapper_selector":".gtranslate_wrapper","select_language_label":"Select Language"}</script>
+      <script defer src="https://cdn.gtranslate.net/widgets/latest/dropdown.js"></script>
+   <script>
+         document.addEventListener("DOMContentLoaded", function(){
+        
+        const buttons = document.getElementById('actionButtons');
+        const wp_buttons = document.getElementById('whatsapp_button');
+        
+        if(buttons && wp_buttons){
+        
+        window.addEventListener('scroll', () => {
+        
+        if(window.scrollY > 100){
+        
+        buttons.classList.add('icons_all_datavisible');
+        wp_buttons.classList.add('visible');
+        
+        }else{
+        
+        buttons.classList.remove('icons_all_datavisible');
+        wp_buttons.classList.remove('visible');
+        
+        }
+        
+        });
+        
+        }
+        
+        });
+  </script>
+
+</body>
+
+</html>

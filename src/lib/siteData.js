@@ -211,22 +211,22 @@ export const industries = [
 ];
 
 export const clients = [
-  { name: "Tata Teleservices", logo: "/images/clients/client-tata-teleservices.png" },
-  { name: "Reliance", logo: "/images/clients/client-reliance.png" },
-  { name: "Computershare", logo: "/images/clients/client-computershare.png" },
-  { name: "Tata Sky", logo: "/images/clients/client-tata-sky.png" },
-  { name: "ANSR", logo: "/images/clients/client-ansr.png" },
+  { name: "Tata Teleservices", logo: "/images/clients/logos/tata-teleservices.svg" },
+  { name: "Reliance", logo: "/images/clients/logos/reliance.svg" },
+  { name: "Computershare", logo: "/images/clients/logos/computershare.svg" },
+  { name: "Tata Sky", logo: "/images/clients/logos/tata-sky.png" },
+  { name: "ANSR", logo: "/images/clients/logos/ansr.png" },
   { name: "Inspire Retail Brands", logo: null },
-  { name: "Sterimax", logo: "/images/clients/client-sterimax.png" },
-  { name: "Oasis Fertility", logo: "/images/clients/client-oasis-fertility.png" },
-  { name: "Inovalon", logo: "/images/clients/client-inovalon.png" },
-  { name: "Deloitte", logo: "/images/clients/client-deloitte.png" },
-  { name: "Amazon", logo: "/images/clients/client-amazon.png" },
-  { name: "AbhiBus", logo: "/images/clients/client-abhibus.png" },
-  { name: "Radio Mirchi", logo: "/images/clients/client-radio-mirchi.png" },
-  { name: "Continental Hospitals", logo: "/images/clients/client-continental-hospitals.png" },
-  { name: "Hala Mobility", logo: "/images/clients/client-hala-mobility.png" },
-  { name: "Northern Tool", logo: null },
+  { name: "Sterimax", logo: "/images/clients/logos/sterimax.png" },
+  { name: "Oasis Fertility", logo: "/images/clients/logos/oasis-fertility.png" },
+  { name: "Inovalon", logo: "/images/clients/logos/inovalon.svg" },
+  { name: "Deloitte", logo: "/images/clients/logos/deloitte.svg" },
+  { name: "Amazon", logo: "/images/clients/logos/amazon.svg" },
+  { name: "AbhiBus", logo: "/images/clients/logos/abhibus.png" },
+  { name: "Radio Mirchi", logo: "/images/clients/logos/radio-mirchi.svg" },
+  { name: "Continental Hospitals", logo: "/images/clients/logos/continental-hospitals.png" },
+  { name: "Hala Mobility", logo: "/images/clients/logos/hala-mobility.png" },
+  { name: "Northern Tool", logo: "/images/clients/logos/northern-tool.svg" },
 ];
 
 export const journey = [
