@@ -216,7 +216,7 @@ export const clients = [
   { name: "Computershare", logo: "/images/clients/client-computershare.png" },
   { name: "Tata Sky", logo: "/images/clients/client-tata-sky.png" },
   { name: "ANSR", logo: "/images/clients/client-ansr.png" },
-  { name: "Inspire Retail Brands", logo: "/images/clients/client-inspire.png" },
+  { name: "Inspire Retail Brands", logo: null },
   { name: "Sterimax", logo: "/images/clients/client-sterimax.png" },
   { name: "Oasis Fertility", logo: "/images/clients/client-oasis-fertility.png" },
   { name: "Inovalon", logo: "/images/clients/client-inovalon.png" },
