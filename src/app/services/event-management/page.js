@@ -1,6 +1,10 @@
 // FILE: src/app/services/event-management/page.js
 "use client";
 import Image from "next/image";
+import Link from "next/link";
+import { services, whatsappLink } from "@/lib/siteData";
+
+const service = services[2];
 
 export default function EventsPage() {
     return (
@@ -10,14 +14,22 @@ export default function EventsPage() {
             <section className="pt-48 pb-24 px-6 md:px-12 bg-cream">
                 <div className="container mx-auto">
                     <p className="font-sans text-sm tracking-widest uppercase text-off-black/60 mb-4">
-                        Service 03
+                        Service {service.id}
                     </p>
                     <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-burgundy mb-6">
-                        EVENT<br />MANAGEMENT
+                        CORPORATE<br />EVENTS
                     </h1>
                     <p className="font-sans text-xl text-off-black/70 max-w-2xl mb-12">
-                        Seamless planning and execution to elevate your brand presence. We turn gatherings into experiences.
+                        Experiences that inspire employees, strengthen brands and leave lasting memories. From concept to execution, every aspect managed with creativity and precision.
                     </p>
+                    <div className="flex flex-wrap gap-4 mb-12">
+                        <Link href="/contact" className="inline-block px-8 py-4 bg-burgundy text-cream rounded-full font-sans font-medium hover:bg-off-black transition-colors">
+                            Plan Your Corporate Event
+                        </Link>
+                        <a href="tel:+919393220094" className="inline-block px-8 py-4 border border-off-black/20 rounded-full font-sans font-medium hover:border-burgundy hover:text-burgundy transition-colors">
+                            Call +91-9393220094
+                        </a>
+                    </div>
                     <div className="w-full h-[1px] bg-off-black/10" />
                 </div>
             </section>
@@ -25,35 +37,76 @@ export default function EventsPage() {
             {/* FEATURED IMAGE */}
             <section className="w-full h-[60vh] relative">
                 <Image
-                    src="https://picsum.photos/1920/1080?random=12"
-                    alt="Event Management"
+                    src={service.image}
+                    alt="Corporate event management, conferences, stage and audience experience"
                     fill
                     className="object-cover"
                 />
             </section>
 
-            {/* DETAILS */}
+            {/* EVENT FORMATS */}
+            <section className="py-24 px-6 md:px-12">
+                <div className="container mx-auto">
+                    <p className="font-sans text-xs uppercase tracking-[0.3em] text-off-black/40 mb-4">
+                        Our Expertise
+                    </p>
+                    <h2 className="font-display text-4xl md:text-6xl text-burgundy mb-16">
+                        Corporate &amp; Social<br />Event Formats
+                    </h2>
+
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-0">
+                        {service.products.map((format, i) => (
+                            <div key={format} className="border-t border-off-black/10 py-6 flex gap-4 items-start hover-trigger">
+                                <span className="font-display text-xs text-off-black/30">{String(i + 1).padStart(2, "0")}</span>
+                                <h3 className="font-display text-lg text-off-black leading-snug">{format}</h3>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* EVENT SERVICES */}
+            <section className="py-24 px-6 md:px-12 bg-off-black text-cream">
+                <div className="container mx-auto">
+                    <p className="font-sans text-xs uppercase tracking-[0.3em] text-cream/40 mb-4">
+                        Event Services
+                    </p>
+                    <h2 className="font-display text-4xl md:text-6xl mb-16">
+                        Concept-to-Execution<br />Support
+                    </h2>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        {service.supportSteps.map((step, i) => (
+                            <div key={step} className="border border-cream/15 rounded-2xl p-6 hover:border-burgundy/60 transition-colors">
+                                <div className="font-display text-3xl text-burgundy mb-4">{String(i + 1).padStart(2, "0")}</div>
+                                <h3 className="font-display text-lg">{step}</h3>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* PROCESS */}
             <section className="py-24 px-6 md:px-12">
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-16">
                     <div>
-                        <h2 className="font-display text-4xl mb-6">Execution<br />Excellence</h2>
-                        <p className="font-sans text-lg text-off-black/70 leading-relaxed mb-6">
-                            From product launches to annual general meetings, we handle the chaos so you can focus on your guests. Our approach is detailed, disciplined, and designed to impress.
+                        <p className="font-sans text-xs uppercase tracking-[0.3em] text-off-black/40 mb-4">
+                            End-to-End Event Management
                         </p>
+                        <h2 className="font-display text-4xl mb-6">Creative Planning<br />With Precise Execution</h2>
                         <p className="font-sans text-lg text-off-black/70 leading-relaxed">
-                            We coordinate vendors, manage technology, design stages, and ensure the flow of the event is flawless from start to finish.
+                            Our event capability covers the key components needed to create a cohesive branded experience — from the first concept through on-ground coordination.
                         </p>
                     </div>
 
                     <div className="space-y-8">
-                        {[
-                            { title: "Stage & Set Design", desc: "Immersive environments that reflect your brand's stature." },
-                            { title: "Guest Management", desc: "RSVPs, travel, and hospitality for VIPs and attendees." },
-                            { title: "Technical Production", desc: "Sound, light, and projection systems that don't fail." }
-                        ].map((item, i) => (
-                            <div key={i} className="border-l-2 border-burgundy pl-6">
-                                <h3 className="font-display text-2xl text-off-black mb-2">{item.title}</h3>
-                                <p className="font-sans text-off-black/60">{item.desc}</p>
+                        {service.process.map((step, i) => (
+                            <div key={step.title} className="flex gap-6 border-l-2 border-burgundy pl-6">
+                                <div className="font-display text-3xl text-burgundy/40">{String(i + 1).padStart(2, "0")}</div>
+                                <div>
+                                    <h3 className="font-display text-2xl text-off-black mb-2">{step.title}</h3>
+                                    <p className="font-sans text-off-black/60">{step.desc}</p>
+                                </div>
                             </div>
                         ))}
                     </div>
@@ -61,11 +114,16 @@ export default function EventsPage() {
             </section>
 
             {/* CTA */}
-            <section className="py-24 bg-off-black text-cream text-center">
-                <h2 className="font-display text-4xl mb-6">Upcoming Event?</h2>
-                <a href="/contact" className="inline-block border-b border-cream/30 pb-1 hover:border-burgundy hover:text-burgundy transition-colors uppercase tracking-wider">
-                    Discuss Requirements
-                </a>
+            <section className="py-24 bg-off-black text-cream text-center px-6">
+                <h2 className="font-display text-4xl mb-6">Let&apos;s Turn Your Corporate Occasion Into a Memorable Experience.</h2>
+                <div className="flex flex-wrap justify-center gap-4">
+                    <Link href="/contact" className="inline-block px-8 py-4 bg-burgundy text-cream rounded-full font-sans font-medium hover:bg-cream hover:text-off-black transition-all">
+                        Start Planning
+                    </Link>
+                    <a href={whatsappLink(service.whatsapp)} target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 border border-cream/30 rounded-full font-sans font-medium hover:bg-cream hover:text-off-black transition-all">
+                        WhatsApp Us
+                    </a>
+                </div>
             </section>
         </div>
     );

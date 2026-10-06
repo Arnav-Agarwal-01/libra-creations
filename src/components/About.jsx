@@ -49,7 +49,7 @@ export default function About() {
                     </h2>
                     <div className="w-16 h-1 bg-sage mb-6" />
                     <p className="font-sans text-sm text-off-black/60 uppercase tracking-widest">
-                        Since 2004
+                        Since 2005
                     </p>
                 </div>
 
@@ -59,19 +59,19 @@ export default function About() {
                             We don&apos;t just supply products; we craft identities.
                         </p>
                         <p className="text-off-black/80">
-                            For over 20 years, we&apos;ve been the silent partner behind the sharpest corporate looks, the most thoughtful gifts, and the most memorable events in India.
+                            Established in 2005 and re-incorporated in 2020, we carry forward over two decades of experience, creativity and customer trust — from Hyderabad to organizations across India.
                         </p>
                         <p className="text-off-black/60">
-                            From Hyderabad to the nation, our obsession with detail creates the perfect balance between corporate professionalism and creative flair.
+                            Creativity that builds brands. Quality that builds trust. That&apos;s the perfect balance we bring to every uniform, every gift and every event.
                         </p>
                     </div>
 
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-24 border-t border-off-black/10 pt-12">
                         {[
                             { label: "Years Exp", value: "20+" },
-                            { label: "Clients", value: "500+" },
-                            { label: "Cities", value: "Pan-India" },
-                            { label: "Delivery", value: "100%" }
+                            { label: "Core Services", value: "03" },
+                            { label: "Coverage", value: "Pan-India" },
+                            { label: "Since", value: "2005" }
                         ].map((stat) => (
                             <div key={stat.label}>
                                 <div className="font-display text-4xl text-burgundy mb-2">{stat.value}</div>

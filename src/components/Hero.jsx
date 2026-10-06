@@ -48,12 +48,9 @@ export default function Hero() {
         <section ref={containerRef} className="relative h-screen flex items-center justify-center overflow-hidden bg-cream">
             <div className="absolute inset-0 z-0">
                 <div ref={imageRef} className="relative w-full h-[120%] -top-[10%]">
-                    {/* Placeholder for a premium abstract/fashion image */}
                     <div className="absolute inset-0 bg-burgundy/5 z-10" />
-                    {/* Using a solid color placeholder if image fails, but ideally this is an image */}
                     <div className="w-full h-full bg-gradient-to-b from-cream/0 via-cream/0 to-cream absolute z-20" />
-                    {/* We would use next/image here with a real src if we had one. For now, a stylish colored block/gradient or noise */}
-                    <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=2940&auto=format&fit=crop')] bg-cover bg-center grayscale contrast-125 opacity-20 hover:grayscale-0 transition-all duration-1000" />
+                    <div className="w-full h-full bg-[url('/images/hero-reference.webp')] bg-cover bg-center grayscale contrast-125 opacity-20 hover:grayscale-0 transition-all duration-1000" />
                 </div>
             </div>
 
@@ -67,7 +64,7 @@ export default function Hero() {
 
                 <div className="mt-8 overflow-hidden">
                     <p className="font-sans text-lg md:text-xl text-off-black/80 max-w-xl mx-auto tracking-wide animate-fade-in-up opacity-0" style={{ animationDelay: "1s", animationFillMode: "forwards" }}>
-                        Elevate your corporate identity with premium uniforms, gifting & events.
+                        Corporate uniforms, gifting and events — one end-to-end partner, since 2005.
                     </p>
                 </div>
 

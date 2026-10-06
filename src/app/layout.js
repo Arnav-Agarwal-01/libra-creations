@@ -13,14 +13,16 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
-  title: "Libra Creations | Premium Corporate Solutions",
-  description: "Elevate your brand with premium uniforms, corporate gifting, and event management.",
+  title: "Libra Creations | Corporate Uniforms, Gifting & Events in India",
+  description:
+    "Established 2005 in Hyderabad. Corporate uniforms, corporate gifting and event management — one end-to-end partner, serving organizations across India.",
 };
 
 import SmoothScroll from "@/components/SmoothScroll";
 import CustomCursor from "@/components/CustomCursor";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function RootLayout({ children }) {
   return (
@@ -36,6 +38,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <Footer />
+        <WhatsAppButton />
       </body>
     </html>
   );

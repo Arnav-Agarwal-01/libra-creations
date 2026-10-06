@@ -2,6 +2,7 @@
 import { useEffect, useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Image from "next/image";
 
 if (typeof window !== "undefined") {
     gsap.registerPlugin(ScrollTrigger);
@@ -9,26 +10,8 @@ if (typeof window !== "undefined") {
 
 const useIsomorphicLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
 
-const services = [
-    {
-        id: "01",
-        title: "Corporate Uniforms",
-        description: "Custom-branded attire designed for comfort, style, and brand consistency.",
-        features: ["Professional Design", "Quality Fabrics", "Brand Alignment"]
-    },
-    {
-        id: "02",
-        title: "Corporate Gifting",
-        description: "Thoughtfully curated gifting solutions that leave lasting impressions.",
-        features: ["Custom Packages", "Premium Products", "Memorable Unboxing"]
-    },
-    {
-        id: "03",
-        title: "Event Management",
-        description: "Seamless planning and execution to elevate your brand presence.",
-        features: ["Complete Coordination", "Branded Merchandise", "Flawless Execution"]
-    }
-];
+import { services } from "@/lib/siteData";
+import Link from "next/link";
 
 export default function Services() {
     const sectionRef = useRef(null);
@@ -79,7 +62,7 @@ export default function Services() {
                         <div className="space-y-8 max-w-xl">
                             <h3 className="font-display text-4xl md:text-5xl text-burgundy">{service.title}</h3>
                             <p className="font-sans text-xl text-cream/80 leading-relaxed">
-                                {service.description}
+                                {service.short}
                             </p>
 
                             <ul className="space-y-4 mt-8">
@@ -92,17 +75,21 @@ export default function Services() {
                             </ul>
 
                             <div className="pt-8">
-                                <button className="px-8 py-3 border border-cream/30 rounded-full hover:bg-cream hover:text-off-black transition-colors hover-trigger">
+                                <Link href={`/services/${service.slug}`} className="inline-block px-8 py-3 border border-cream/30 rounded-full hover:bg-cream hover:text-off-black transition-colors hover-trigger">
                                     Learn More
-                                </button>
+                                </Link>
                             </div>
                         </div>
 
-                        {/* Placeholder for Service Image */}
+                        {/* Service Image */}
                         <div className="w-full md:w-1/2 aspect-video bg-off-black/50 overflow-hidden relative group">
-                            <div className="absolute inset-0 bg-burgundy/20 group-hover:bg-transparent transition-colors duration-500" />
-                            {/* Replace with Next/Image and real assets */}
-                            <div className="w-full h-full bg-gradient-to-br from-off-black to-gray-800" />
+                            <div className="absolute inset-0 bg-burgundy/20 group-hover:bg-transparent transition-colors duration-500 z-10 pointer-events-none" />
+                            <Image
+                                src={service.image}
+                                alt={service.title}
+                                fill
+                                className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                            />
                         </div>
                     </div>
                 ))}

@@ -4,12 +4,9 @@ import gsap from "gsap";
 
 const useIsomorphicLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
 
-const clients = [
-    "Computershare", "Oasis Fertility", "Inovalon", "Reliance", "Deloitte",
-    "Amazon", "Inspire Retail Brands", "Northern Tool", "Ansr",
-    "Computershare", "Oasis Fertility", "Inovalon", "Reliance", "Deloitte",
-    "Amazon", "Inspire Retail Brands", "Northern Tool", "Ansr"
-];
+import { clients } from "@/lib/siteData";
+
+const marqueeClients = [...clients, ...clients].map((c) => c.name);
 
 export default function Marquee() {
     const marqueeRef = useRef(null);
@@ -38,7 +35,7 @@ export default function Marquee() {
 
             <div className="relative w-full overflow-hidden whitespace-nowrap">
                 <div ref={marqueeRef} className="inline-block">
-                    {clients.map((client, index) => (
+                    {marqueeClients.map((client, index) => (
                         <span key={index} className="inline-block mx-12 md:mx-24 font-display text-4xl md:text-6xl text-off-black/20 hover:text-burgundy transition-colors duration-300 cursor-default">
                             {client}
                         </span>
