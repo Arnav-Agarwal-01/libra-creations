@@ -1,137 +1,144 @@
 "use client";
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-if (typeof window !== "undefined") {
-    gsap.registerPlugin(ScrollTrigger);
-}
-
-const useIsomorphicLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
+import { usePathname } from "next/navigation";
+import Brand from "@/components/Brand";
 
 const navItems = [
-    { name: "Services", path: "/services" },
-    { name: "About", path: "/about" },
-    { name: "Portfolio", path: "/portfolio" },
-    { name: "Contact", path: "/contact" }
+  { name: "Catalogue", path: "/services" },
+  { name: "Our clients", path: "/portfolio" },
+  { name: "About", path: "/about" },
+  { name: "Contact", path: "/contact" },
 ];
 
 export default function Header() {
-    const headerRef = useRef(null);
-    const [isScrolled, setIsScrolled] = useState(false);
-    const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const buttonRef = useRef(null);
+  const panelRef = useRef(null);
 
-    useIsomorphicLayoutEffect(() => {
-        const header = headerRef.current;
-        if (!header) return;
+  useEffect(() => {
+    if (!menuOpen) return;
 
-        const ctx = gsap.context(() => {
-            ScrollTrigger.create({
-                start: "top top",
-                end: 99999,
-                onUpdate: (self) => {
-                    if (self.direction === -1) {
-                        gsap.to(header, { y: 0, duration: 0.3, ease: "power2.out" });
-                    } else if (self.direction === 1 && window.scrollY > 100) {
-                        gsap.to(header, { y: "-100%", duration: 0.3, ease: "power2.in" });
-                    }
-                }
-            });
+    const menuButton = buttonRef.current;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    panelRef.current?.querySelector("a")?.focus();
 
-            ScrollTrigger.create({
-                start: "top+=100",
-                end: 99999,
-                onEnter: () => setIsScrolled(true),
-                onLeaveBack: () => setIsScrolled(false),
-            });
-        });
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") {
+        setMenuOpen(false);
+        return;
+      }
 
-        return () => ctx.revert();
-    }, []);
+      if (event.key !== "Tab") return;
+      const panelControls = Array.from(panelRef.current?.querySelectorAll("a, button") || []);
+      const focusable = [menuButton, ...panelControls].filter(Boolean);
+      if (!focusable.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
 
-    // Lock body scroll when the mobile menu is open
-    useEffect(() => {
-        document.body.style.overflow = menuOpen ? "hidden" : "";
-        return () => { document.body.style.overflow = ""; };
-    }, [menuOpen]);
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
 
-    return (
-        <>
-            <header
-                ref={headerRef}
-                className={`fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 md:px-12 transition-all duration-300 ${isScrolled || menuOpen ? "bg-cream/90 backdrop-blur-md py-4 shadow-sm" : "py-6"
-                    }`}
+    document.addEventListener("keydown", handleKeyDown);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener("keydown", handleKeyDown);
+      menuButton?.focus();
+    };
+  }, [menuOpen]);
+
+  const isActive = (path) => pathname === path || (path === "/services" && pathname.startsWith("/services/"));
+
+  return (
+    <header className="sticky top-0 z-50 border-b border-line/80 bg-paper/95 backdrop-blur-lg">
+      <div className="shell flex h-[4.75rem] items-center justify-between gap-5">
+        <Brand onClick={() => setMenuOpen(false)} />
+
+        <nav className="hidden items-center gap-1 lg:flex" aria-label="Main navigation">
+          {navItems.map((item) => (
+            <Link
+              key={item.path}
+              href={item.path}
+              aria-current={isActive(item.path) ? "page" : undefined}
+              className={`rounded-lg px-3.5 py-2.5 text-sm font-semibold transition-colors ${
+                isActive(item.path) ? "bg-mist text-ink" : "text-muted hover:bg-mist/70 hover:text-ink"
+              }`}
             >
-                <Link href="/" className="font-display text-2xl md:text-3xl font-bold tracking-tight text-burgundy hover:opacity-80 transition-opacity">
-                    LIBRA CREATIONS
-                </Link>
+              {item.name}
+            </Link>
+          ))}
+        </nav>
 
-                <nav className="hidden md:flex gap-8 items-center">
-                    {navItems.map((item) => (
-                        <Link
-                            key={item.name}
-                            href={item.path}
-                            className="text-off-black font-sans font-medium text-sm tracking-wide hover:text-burgundy transition-colors hover-trigger"
-                        >
-                            {item.name.toUpperCase()}
-                        </Link>
-                    ))}
-                    <Link
-                        href="/contact"
-                        className="bg-burgundy text-cream px-6 py-2 rounded-full font-sans font-medium text-sm hover:bg-off-black transition-colors hover-trigger"
-                    >
-                        GET STARTED
-                    </Link>
-                </nav>
+        <div className="hidden lg:block">
+          <Link href="/contact" className="button button-primary">
+            Start an enquiry
+          </Link>
+        </div>
 
-                {/* Mobile Menu Button */}
-                <button
-                    className="md:hidden text-off-black relative z-[60]"
-                    onClick={() => setMenuOpen(!menuOpen)}
-                    aria-label={menuOpen ? "Close menu" : "Open menu"}
-                    aria-expanded={menuOpen}
+        <button
+          ref={buttonRef}
+          type="button"
+          className="inline-flex h-11 w-11 items-center justify-center rounded-lg border border-line text-ink lg:hidden"
+          onClick={() => setMenuOpen((open) => !open)}
+          aria-label={menuOpen ? "Close navigation" : "Open navigation"}
+          aria-expanded={menuOpen}
+          aria-controls="mobile-navigation"
+        >
+          <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
+            {menuOpen ? (
+              <path d="m6 6 12 12M18 6 6 18" strokeLinecap="round" />
+            ) : (
+              <path d="M4 7h16M4 12h16M4 17h16" strokeLinecap="round" />
+            )}
+          </svg>
+        </button>
+      </div>
+
+      {menuOpen && (
+        <div
+          id="mobile-navigation"
+          ref={panelRef}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Navigation menu"
+          className="absolute inset-x-0 top-full z-40 h-[calc(100dvh-4.75rem)] overflow-y-auto border-t border-line bg-paper lg:hidden"
+        >
+          <nav className="shell flex min-h-full flex-col py-8" aria-label="Mobile navigation">
+            <div className="flex flex-col">
+              {navItems.map((item) => (
+                <Link
+                  key={item.path}
+                  href={item.path}
+                  onClick={() => setMenuOpen(false)}
+                  aria-current={isActive(item.path) ? "page" : undefined}
+                  className={`border-b border-line py-5 font-display text-3xl font-medium tracking-[-0.035em] ${
+                    isActive(item.path) ? "text-ink underline decoration-brass decoration-2 underline-offset-8" : "text-ink"
+                  }`}
                 >
-                    <span className="sr-only">Menu</span>
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        {menuOpen ? (
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                        ) : (
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                        )}
-                    </svg>
-                </button>
-            </header>
-
-            {/* Mobile Menu Overlay */}
-            <div
-                className={`fixed inset-0 z-[55] bg-cream flex flex-col justify-center px-8 md:hidden transition-all duration-500 ${menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
-                    }`}
-            >
-                <nav className="flex flex-col gap-8">
-                    {navItems.map((item, index) => (
-                        <Link
-                            key={item.name}
-                            href={item.path}
-                            onClick={() => setMenuOpen(false)}
-                            className={`font-display text-4xl text-off-black hover:text-burgundy transition-all duration-500 ${menuOpen ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
-                                }`}
-                            style={{ transitionDelay: `${100 + index * 80}ms` }}
-                        >
-                            {item.name.toUpperCase()}
-                        </Link>
-                    ))}
-                    <Link
-                        href="/contact"
-                        onClick={() => setMenuOpen(false)}
-                        className={`mt-8 inline-flex items-center justify-center px-8 py-4 bg-burgundy text-cream rounded-full font-sans font-medium transition-all duration-500 ${menuOpen ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
-                            }`}
-                        style={{ transitionDelay: "500ms" }}
-                    >
-                        GET STARTED
-                    </Link>
-                </nav>
+                  {item.name}
+                </Link>
+              ))}
             </div>
-        </>
-    );
+            <div className="mt-auto pt-8">
+              <p className="mb-4 text-sm leading-relaxed text-muted">
+                Uniforms, gifts and events for organizations across India.
+              </p>
+              <Link href="/contact" onClick={() => setMenuOpen(false)} className="button button-primary w-full">
+                Start an enquiry
+              </Link>
+            </div>
+          </nav>
+        </div>
+      )}
+    </header>
+  );
 }

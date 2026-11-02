@@ -1,73 +1,71 @@
 import Link from "next/link";
-import { site, whatsappLink } from "@/lib/siteData";
+import Brand from "@/components/Brand";
+import { services, site, whatsappLink } from "@/lib/siteData";
 
 export default function Footer() {
-    const year = new Date().getFullYear();
+  const year = new Date().getFullYear();
 
-    return (
-        <footer className="bg-off-black text-cream pt-24 pb-12 px-6 md:px-12 rounded-t-[3rem] mt-12">
-            <div className="max-w-7xl mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-24">
-                    <div>
-                        <h2 className="font-display text-5xl md:text-7xl lg:text-8xl mb-8 leading-none">
-                            Let&apos;s Create<br />Impact.
-                        </h2>
-                        <p className="font-sans text-lg text-cream/70 max-w-md">
-                            Creativity that Builds Brands. Quality that Builds Trust.
-                        </p>
-                    </div>
+  return (
+    <footer className="bg-ink-deep text-white">
+      <div className="shell py-12 md:py-16">
+        <div className="grid gap-10 border-b border-white/15 pb-12 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
+          <div>
+            <Brand light />
+            <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/65">
+              Corporate uniforms, thoughtful gifts and well-managed events, delivered with one point of contact.
+            </p>
+          </div>
 
-                    <div className="space-y-12">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-                            <div>
-                                <h3 className="font-display text-xl mb-4 text-sage">Contact</h3>
-                                <p className="font-sans text-cream/90 hover:text-white transition-colors">
-                                    <a href={site.phoneHref}>{site.phone}</a>
-                                </p>
-                                <p className="font-sans text-cream/90 hover:text-white transition-colors">
-                                    <a href={site.emailHref}>{site.email}</a>
-                                </p>
-                                <p className="font-sans text-cream/90 hover:text-white transition-colors mt-2">
-                                    <a href={whatsappLink("Hello Libra Creations, I would like to discuss a corporate requirement.")} target="_blank" rel="noopener noreferrer">
-                                        WhatsApp Us
-                                    </a>
-                                </p>
-                            </div>
+          <div>
+            <h2 className="text-sm font-bold text-white">Catalogue</h2>
+            <ul className="mt-4 space-y-3 text-sm text-white/65">
+              {services.map((service) => (
+                <li key={service.id}>
+                  <Link className="inline-flex min-h-7 items-center hover:text-white" href={`/services/${service.slug}`}>
+                    {service.title}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link className="inline-flex min-h-7 items-center hover:text-white" href="/services">
+                  View all solutions
+                </Link>
+              </li>
+            </ul>
+          </div>
 
-                            <div>
-                                <h3 className="font-display text-xl mb-4 text-sage">Location</h3>
-                                <p className="font-sans text-cream/90">
-                                    {site.address}<br />
-                                    {site.addressLine2}
-                                </p>
-                            </div>
-                        </div>
+          <div>
+            <h2 className="text-sm font-bold text-white">Company</h2>
+            <ul className="mt-4 space-y-3 text-sm text-white/65">
+              <li><Link className="inline-flex min-h-7 items-center hover:text-white" href="/about">About us</Link></li>
+              <li><Link className="inline-flex min-h-7 items-center hover:text-white" href="/portfolio">Our clients</Link></li>
+              <li><Link className="inline-flex min-h-7 items-center hover:text-white" href="/contact">Contact</Link></li>
+            </ul>
+          </div>
 
-                        <div className="border-t border-cream/10 pt-8">
-                            <h3 className="font-display text-xl mb-4 text-sage">Services</h3>
-                            <ul className="grid grid-cols-2 gap-4 font-sans text-cream/80">
-                                <li><Link href="/services/corporate-uniforms" className="hover:text-white transition-colors">Corporate Uniforms</Link></li>
-                                <li><Link href="/services/corporate-gifting" className="hover:text-white transition-colors">Corporate Gifting</Link></li>
-                                <li><Link href="/services/event-management" className="hover:text-white transition-colors">Event Management</Link></li>
-                                <li><Link href="/services" className="hover:text-white transition-colors">All Services</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+          <div>
+            <h2 className="text-sm font-bold text-white">Talk to us</h2>
+            <address className="mt-4 space-y-3 text-sm not-italic leading-relaxed text-white/65">
+              <a className="block break-words hover:text-white" href={site.phoneHref}>{site.phone}</a>
+              <a className="block break-words hover:text-white" href={site.emailHref}>{site.email}</a>
+              <a
+                className="inline-flex min-h-8 items-center font-semibold text-white hover:underline"
+                href={whatsappLink("Hello Libra Creations, I would like to discuss a corporate requirement.")}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Chat on WhatsApp
+              </a>
+              <p>{site.address}<br />{site.addressLine2}</p>
+            </address>
+          </div>
+        </div>
 
-                <div className="flex flex-col md:flex-row justify-between items-end pt-12 border-t border-cream/10">
-                    <div className="mb-6 md:mb-0">
-                        <h4 className="font-display text-9xl md:text-[12rem] leading-none opacity-10 select-none">
-                            LIBRA
-                        </h4>
-                    </div>
-
-                    <div className="flex gap-8 font-sans text-sm text-cream/50">
-                        <span>© {year} {site.name}. All rights reserved.</span>
-                        <span className="hidden sm:inline">Hyderabad • Pan-India</span>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    );
+        <div className="flex flex-col gap-2 pt-6 text-xs leading-relaxed text-white/50 sm:flex-row sm:items-center sm:justify-between">
+          <p>© {year} {site.name}. All rights reserved.</p>
+          <p>Hyderabad, India · Serving organizations pan-India</p>
+        </div>
+      </div>
+    </footer>
+  );
 }

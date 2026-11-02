@@ -1,40 +1,42 @@
-import { Cinzel, DM_Sans } from "next/font/google";
+import { Bricolage_Grotesque, Cinzel, Manrope } from "next/font/google";
 import "./globals.css";
-
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const cinzel = Cinzel({
   variable: "--font-cinzel",
   subsets: ["latin"],
 });
 
-const dmSans = DM_Sans({
-  variable: "--font-dm-sans",
+const bricolage = Bricolage_Grotesque({
+  variable: "--font-bricolage",
+  subsets: ["latin"],
+});
+
+const manrope = Manrope({
+  variable: "--font-manrope",
   subsets: ["latin"],
 });
 
 export const metadata = {
-  title: "Libra Creations | Corporate Uniforms, Gifting & Events in India",
+  title: {
+    default: "Libra Creations | Corporate Uniforms, Gifting & Events",
+    template: "%s | Libra Creations",
+  },
   description:
-    "Established 2005 in Hyderabad. Corporate uniforms, corporate gifting and event management — one end-to-end partner, serving organizations across India.",
+    "Browse corporate uniforms, gifting and event services from Libra Creations. Serving organizations across India from Hyderabad since 2005.",
 };
-
-import SmoothScroll from "@/components/SmoothScroll";
-import CustomCursor from "@/components/CustomCursor";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${cinzel.variable} ${dmSans.variable} antialiased bg-cream text-off-black`}
-        suppressHydrationWarning
-      >
-        <SmoothScroll />
-        <CustomCursor />
+    <html lang="en">
+      <body className={`${cinzel.variable} ${bricolage.variable} ${manrope.variable}`}>
+        <a href="#main-content" className="skip-link">
+          Skip to content
+        </a>
         <Header />
-        <main className="min-h-screen pt-24">
+        <main id="main-content" className="min-h-screen">
           {children}
         </main>
         <Footer />

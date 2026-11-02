@@ -3,18 +3,16 @@ import About from "@/components/About";
 import Services from "@/components/Services";
 import Marquee from "@/components/Marquee";
 import Industries from "@/components/Industries";
-import Journey from "@/components/Journey";
 import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <About />
       <Services />
+      <About />
       <Marquee />
       <Industries />
-      <Journey />
       <Contact />
     </>
   );

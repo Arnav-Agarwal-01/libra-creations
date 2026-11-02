@@ -194,6 +194,23 @@ export const services = [
   },
 ];
 
+export const getServiceBySlug = (slug) =>
+  services.find((service) => service.slug === slug);
+
+export const catalogueItems = services.flatMap((service) =>
+  service.products.map((name) => ({
+    id: `${service.slug}-${name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
+    name,
+    service,
+  })),
+);
+
+export const enquiryHref = (serviceSlug, item) => {
+  const params = new URLSearchParams({ service: serviceSlug });
+  if (item) params.set("item", item);
+  return `/contact?${params.toString()}`;
+};
+
 export const industries = [
   { id: "01", name: "Information Technology", desc: "Uniforms, employee kits, branded merchandise and corporate events for technology teams." },
   { id: "02", name: "Telecommunications", desc: "Scalable uniform, gifting and event support for distributed operations and customer-facing teams." },

@@ -1,190 +1,134 @@
-// FILE: src/app/about/page.js
-"use client";
-import { useEffect, useRef } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
 import Link from "next/link";
-import { whyUs, vision, mission, site } from "@/lib/siteData";
+import { journey, milestone, mission, site, vision, whyUs } from "@/lib/siteData";
 
-gsap.registerPlugin(ScrollTrigger);
-
-const journeyTimeline = [
-    {
-        year: "2005",
-        title: "Began Operations",
-        desc: "Started as Libra Creation with a focus on dependable corporate solutions — anchored by a nationwide uniform order for Tata Teleservices, our very first major assignment.",
-    },
-    {
-        year: "2020",
-        title: "Re-incorporated",
-        desc: "Re-incorporated as Libra Creations with renewed capability and a wider vision — carrying forward over two decades of experience, creativity and customer trust.",
-    },
-    {
-        year: "Today",
-        title: "Serving Organizations Across India",
-        desc: "Supporting multinational corporations, healthcare organizations, technology companies, manufacturing industries, educational institutions, retail chains, startups and government organizations.",
-    },
-];
+export const metadata = {
+  title: "About Us",
+  description: "Learn about Libra Creations, a Hyderabad-based corporate solutions partner serving organizations across India since 2005.",
+};
 
 export default function AboutPage() {
-    const textRef = useRef(null);
-
-    useEffect(() => {
-        let ctx = gsap.context(() => {
-            // Text Reveal
-            if (!textRef.current) return;
-            gsap.fromTo(textRef.current,
-                { opacity: 0, y: 50 },
-                {
-                    opacity: 1,
-                    y: 0,
-                    duration: 1,
-                    scrollTrigger: {
-                        trigger: textRef.current,
-                        start: "top 80%",
-                    }
-                }
-            );
-        });
-
-        return () => ctx.revert();
-    }, []);
-
-    return (
-        <div className="bg-cream min-h-screen">
-
-            {/* HERO SECTION */}
-            <section className="pt-48 pb-24 px-6 md:px-12">
-                <div className="container mx-auto">
-                    <h1 className="font-display text-6xl md:text-8xl lg:text-9xl text-burgundy mb-12">
-                        OUR STORY
-                    </h1>
-                    <div className="w-full h-[1px] bg-off-black/10 mb-12" />
-
-                    <div className="flex flex-col md:flex-row gap-16 items-start">
-                        <div className="md:w-1/3">
-                            <h2 className="font-display text-4xl text-off-black mb-6">
-                                Experience, Creativity<br />&amp; Customer Trust
-                            </h2>
-                            <p className="font-sans text-sm text-off-black/60 uppercase tracking-widest">
-                                Since {site.established}
-                            </p>
-                        </div>
-                        <div className="md:w-2/3" ref={textRef}>
-                            <p className="font-display text-3xl md:text-4xl leading-tight text-off-black mb-12">
-                                Originally established in 2005 under the banner of Libra Creation, the company was re-incorporated in 2020 as Libra Creations — carrying forward over two decades of experience, creativity and customer trust.
-                            </p>
-                            <div className="space-y-8 font-sans text-lg text-off-black/70 max-w-2xl">
-                                <p>
-                                    With a passion for excellence and an unwavering commitment to quality, Libra Creations has become a preferred partner for organizations seeking reliable, creative and end-to-end corporate branding solutions.
-                                </p>
-                                <p>
-                                    From our home in Hyderabad, we support organizations across India with dependable sourcing, customized branding solutions, professional project management and a customer-first approach.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* IMAGE BREAK */}
-            <section className="w-full h-[60vh] md:h-[80vh] bg-off-black relative overflow-hidden">
-                <Image
-                    src="/images/partnership-premium.webp"
-                    alt="Libra Creations partnership, experience and trust"
-                    fill
-                    className="object-cover opacity-80 hover:scale-105 transition-transform duration-[2s]"
-                />
-            </section>
-
-            {/* JOURNEY TIMELINE */}
-            <section className="py-32 px-6 md:px-12 bg-cream text-off-black">
-                <div className="container mx-auto">
-                    <p className="font-sans text-xs uppercase tracking-[0.3em] text-off-black/40 mb-4">
-                        Our Journey
-                    </p>
-                    <h2 className="font-display text-4xl md:text-6xl text-burgundy mb-16">
-                        2005 → 2020 → Today
-                    </h2>
-
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-                        {journeyTimeline.map((chapter, i) => (
-                            <div key={chapter.year} className="border-t-2 border-burgundy/30 pt-8">
-                                <div className="font-display text-5xl text-burgundy mb-4">{chapter.year}</div>
-                                <h3 className="font-display text-2xl text-off-black mb-4">{chapter.title}</h3>
-                                <p className="font-sans text-off-black/70 leading-relaxed">{chapter.desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* VISION & MISSION */}
-            <section className="py-32 px-6 md:px-12 bg-off-black text-cream">
-                <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-16">
-                    <div className="border-t border-cream/20 pt-8">
-                        <p className="font-sans text-xs uppercase tracking-[0.3em] text-cream/40 mb-4">
-                            Our Vision
-                        </p>
-                        <h3 className="font-display text-3xl mb-6">
-                            India&apos;s Trusted Corporate Solutions Partner
-                        </h3>
-                        <p className="font-sans text-lg text-cream/70 leading-relaxed">
-                            {vision}
-                        </p>
-                    </div>
-                    <div className="border-t border-cream/20 pt-8">
-                        <p className="font-sans text-xs uppercase tracking-[0.3em] text-cream/40 mb-4">
-                            Our Mission
-                        </p>
-                        <h3 className="font-display text-3xl mb-6">
-                            Strengthen Brand Identity Through Better Solutions
-                        </h3>
-                        <p className="font-sans text-lg text-cream/70 leading-relaxed">
-                            {mission}
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            {/* WHAT MAKES US DIFFERENT */}
-            <section className="py-32 px-6 md:px-12 bg-cream text-off-black">
-                <div className="container mx-auto">
-                    <p className="font-sans text-xs uppercase tracking-[0.3em] text-off-black/40 mb-4">
-                        What Makes Us Different
-                    </p>
-                    <h2 className="font-display text-4xl md:text-6xl text-burgundy mb-16">
-                        Built Around Quality,<br />Reliability &amp; Trust
-                    </h2>
-
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-16 gap-y-6 max-w-4xl">
-                        {whyUs.map((point, i) => (
-                            <div key={point} className="flex items-start gap-4 border-b border-off-black/10 pb-6">
-                                <span className="font-display text-sm text-burgundy/60 mt-1">
-                                    {String(i + 1).padStart(2, "0")}
-                                </span>
-                                <p className="font-sans text-lg text-off-black/80">{point}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* OUR PROMISE / CTA */}
-            <section className="py-24 bg-burgundy text-cream text-center px-6">
-                <div className="container mx-auto">
-                    <p className="font-sans text-xs uppercase tracking-[0.3em] text-cream/60 mb-6">
-                        Our Promise
-                    </p>
-                    <h2 className="font-display text-4xl md:text-6xl mb-8">
-                        Deliver Excellence. Build Trust. Create Lasting Impressions.
-                    </h2>
-                    <Link href="/contact" className="inline-block px-12 py-4 bg-cream text-burgundy font-medium rounded-full hover:bg-off-black hover:text-cream transition-all duration-300">
-                        Start a Conversation
-                    </Link>
-                </div>
-            </section>
+  return (
+    <>
+      <section className="shell grid gap-8 py-12 md:py-16 lg:grid-cols-[1.05fr_0.95fr] lg:items-end">
+        <div>
+          <p className="mb-4 text-sm font-semibold text-muted">About Libra Creations</p>
+          <h1 className="display-lg text-ink">A reliable partner should make things feel simple.</h1>
         </div>
-    );
+        <div>
+          <p className="lede text-base">
+            We bring uniforms, gifting and events together under one roof, with the sourcing, branding and coordination needed to deliver them well.
+          </p>
+          <p className="mt-4 text-sm font-semibold text-ink">Established in {site.established} · Hyderabad, India</p>
+        </div>
+      </section>
+
+      <div className="shell">
+        <div className="relative aspect-[3/2] overflow-hidden rounded-2xl border border-line bg-ink md:aspect-[2/1]">
+          <Image
+            src="/images/partnership-premium.webp"
+            alt="Libra Creations partnership, experience and trust"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
+        </div>
+      </div>
+
+      <section className="section-compact">
+        <div className="shell grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
+          <h2 className="display-md text-ink">Built on experience. Focused on what clients need next.</h2>
+          <div className="space-y-5 text-base leading-relaxed text-muted">
+            <p>
+              Originally established in 2005 as Libra Creation and re-incorporated in 2020 as Libra Creations, our company carries forward long-standing relationships, practical knowledge and a customer-first way of working.
+            </p>
+            <p>
+              From our home in Hyderabad, we support organizations across India with dependable sourcing, customized branding, professional project management and responsive service.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section-compact bg-mist">
+        <div className="shell">
+          <h2 className="display-md text-ink">Our journey</h2>
+          <ol className="mt-10 ml-1 space-y-10 border-l-2 border-ink/15 pl-6 sm:pl-10">
+            {journey.map((chapter) => (
+              <li key={chapter.id} className="relative">
+                <span
+                  aria-hidden="true"
+                  className="absolute top-1.5 -left-8 h-4 w-4 rounded-full bg-brass ring-4 ring-mist sm:-left-12"
+                />
+                <div className="grid gap-1 sm:grid-cols-[7.5rem_1fr] sm:gap-8">
+                  <time className="font-display text-2xl font-medium text-ink">{chapter.year}</time>
+                  <div>
+                    <h3 className="text-base font-bold text-ink">{chapter.title}</h3>
+                    <p className="mt-2 max-w-prose text-sm leading-relaxed text-muted">{chapter.quote}</p>
+                    <p className="mt-2 text-xs font-bold uppercase tracking-wider text-muted">{chapter.stat}</p>
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+
+      <section className="section-compact border-y border-line bg-surface">
+        <div className="shell grid gap-8 lg:grid-cols-[0.4fr_1.6fr] lg:gap-16">
+          <div>
+            <p className="text-sm font-semibold text-muted">A proud milestone</p>
+            <p className="mt-2 font-display text-4xl text-ink">{milestone.stat}</p>
+            <p className="mt-1 text-xs font-bold uppercase tracking-wider text-muted">{milestone.statLabel}</p>
+          </div>
+          <div className="border-l-2 border-brass pl-5 sm:pl-7">
+            <h3 className="font-display text-xl text-ink">{milestone.title}</h3>
+            <p className="mt-3 max-w-prose text-base leading-relaxed text-muted">{milestone.body}</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-ink-deep text-white">
+        <div className="shell grid gap-10 py-12 md:grid-cols-2 md:py-16">
+          <div className="border-t border-white/25 pt-6">
+            <h2 className="font-display text-2xl font-semibold tracking-[-0.03em]">Our vision</h2>
+            <p className="mt-4 leading-relaxed text-white/65">{vision}</p>
+          </div>
+          <div className="border-t border-white/25 pt-6">
+            <h2 className="font-display text-2xl font-semibold tracking-[-0.03em]">Our mission</h2>
+            <p className="mt-4 leading-relaxed text-white/65">{mission}</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="shell grid gap-10 lg:grid-cols-[0.65fr_1.35fr] lg:gap-16">
+          <div>
+            <p className="mb-3 text-sm font-semibold text-muted">What you can expect</p>
+            <h2 className="display-md text-ink">Quality without the runaround.</h2>
+          </div>
+          <ul className="grid gap-x-8 sm:grid-cols-2">
+            {whyUs.map((point) => (
+              <li key={point} className="flex items-start gap-3 border-t border-line py-4 text-sm font-semibold leading-relaxed text-ink">
+                <svg viewBox="0 0 20 20" className="mt-0.5 h-5 w-5 shrink-0 text-brass" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
+                  <path d="m4 10 4 4 8-9" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+                {point}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="border-t border-line bg-surface">
+        <div className="shell flex flex-col gap-6 py-10 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h2 className="font-display text-2xl font-semibold tracking-[-0.03em] text-ink">Let’s make your next requirement easier.</h2>
+            <p className="mt-2 text-sm text-muted">Tell us what you are planning and where you need support.</p>
+          </div>
+          <Link href="/contact" className="button button-primary shrink-0">Start a conversation</Link>
+        </div>
+      </section>
+    </>
+  );
 }
