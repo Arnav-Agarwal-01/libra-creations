@@ -4,6 +4,12 @@ import { useMemo, useState } from "react";
 import CatalogueItemCard from "@/components/CatalogueItemCard";
 import { catalogueItems, services } from "@/lib/siteData";
 
+const serviceChipCounts = () =>
+  services.map((service) => ({
+    ...service,
+    count: service.products.length + catalogueItems.filter((item) => item.service.slug === service.slug && item.featured).length,
+  }));
+
 export default function CatalogueExplorer({ initialQuery = "", initialCategory = "all" }) {
   const [query, setQuery] = useState(initialQuery);
   const [category, setCategory] = useState(initialCategory);
@@ -11,9 +17,16 @@ export default function CatalogueExplorer({ initialQuery = "", initialCategory =
   const filteredItems = useMemo(() => {
     const tokens = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
 
-    return catalogueItems.filter(({ name, service }) => {
+    return catalogueItems.filter((item) => {
+      const { name, service, featured } = item;
       if (category !== "all" && service.slug !== category) return false;
-      const searchable = [name, service.title, ...service.features, ...(service.supportSteps || [])]
+      const searchable = [
+        name,
+        service.title,
+        ...service.features,
+        ...(service.supportSteps || []),
+        ...(featured ? [featured.brand, featured.detail, ...featured.tags, featured.note] : []),
+      ]
         .join(" ")
         .toLowerCase();
       return tokens.every((token) => searchable.includes(token));
@@ -28,7 +41,7 @@ export default function CatalogueExplorer({ initialQuery = "", initialCategory =
   return (
     <div>
       <div className="rounded-2xl border border-line bg-surface p-4 sm:p-5">
-        <label htmlFor="catalogue-filter-search" className="field-label">Search by product, event or service</label>
+        <label htmlFor="catalogue-filter-search" className="field-label">Search by product, brand, colour, fabric or service</label>
         <div className="relative">
           <svg viewBox="0 0 24 24" className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-muted" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true">
             <circle cx="11" cy="11" r="6.5" />
@@ -40,12 +53,12 @@ export default function CatalogueExplorer({ initialQuery = "", initialCategory =
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             className="field field-search"
-            placeholder="Search polo shirts, gift sets, conferences…"
+            placeholder="Try “dry fit polo”, “Puma”, “cork gift set”, “bamboo”…"
           />
         </div>
 
         <div className="mt-4 flex gap-2 overflow-x-auto pb-1" aria-label="Filter by collection">
-          {[{ slug: "all", title: "All solutions", products: catalogueItems }, ...services].map((item) => (
+          {[{ slug: "all", title: "All solutions", count: catalogueItems.length }, ...serviceChipCounts()].map((item) => (
             <button
               key={item.slug}
               type="button"
@@ -59,7 +72,7 @@ export default function CatalogueExplorer({ initialQuery = "", initialCategory =
             >
               {item.title}
               <span className={`text-xs ${category === item.slug ? "text-white/65" : "text-muted"}`}>
-                {item.products.length}
+                {item.count}
               </span>
             </button>
           ))}
@@ -79,9 +92,9 @@ export default function CatalogueExplorer({ initialQuery = "", initialCategory =
 
       {filteredItems.length > 0 ? (
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {filteredItems.map(({ id, name, service }) => (
-            <li key={id}>
-              <CatalogueItemCard item={name} service={service} />
+          {filteredItems.map((item) => (
+            <li key={item.id}>
+              <CatalogueItemCard name={item.name} service={item.service} featured={item.featured || null} />
             </li>
           ))}
         </ul>

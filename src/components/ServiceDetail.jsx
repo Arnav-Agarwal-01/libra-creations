@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import CatalogueItemCard from "@/components/CatalogueItemCard";
-import { enquiryHref, whatsappLink } from "@/lib/siteData";
+import { enquiryHref, getFeaturedForService, whatsappLink } from "@/lib/siteData";
 
 export default function ServiceDetail({ service }) {
   const isGifting = service.slug === "corporate-gifting";
   const rangeTitle = service.slug === "event-management" ? "Event formats and experiences" : `Explore the ${isGifting ? "gifting" : "uniform"} range`;
+  const featured = getFeaturedForService(service.slug);
 
   return (
     <>
@@ -63,12 +64,38 @@ export default function ServiceDetail({ service }) {
           <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {service.products.map((product) => (
               <li key={product}>
-                <CatalogueItemCard item={product} service={service} />
+                <CatalogueItemCard name={product} service={service} />
               </li>
             ))}
           </ul>
+          <p className="mt-5 text-sm text-muted">
+            Every option above can be branded with your logo and delivered nationwide. Looking for something on the shelf? Browse the featured pieces below.
+          </p>
         </div>
       </section>
+
+      {featured.length > 0 && (
+        <section className="section-compact bg-mist">
+          <div className="shell">
+            <div className="mb-7 flex flex-wrap items-end justify-between gap-3">
+              <div>
+                <p className="mb-2 text-sm font-semibold text-muted">Straight from our catalogues</p>
+                <h2 className="display-md text-ink">Featured picks with searchable specs</h2>
+              </div>
+              <Link href={`/catalogue?category=${service.slug}`} className="min-h-10 text-sm font-semibold text-muted underline decoration-line underline-offset-4 hover:text-ink">
+                Search the full catalogue
+              </Link>
+            </div>
+            <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {featured.map((entry) => (
+                <li key={entry.id}>
+                  <CatalogueItemCard name={entry.name} service={service} featured={entry} />
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
 
       {service.supportSteps && (
         <section className="section-compact bg-mist">
