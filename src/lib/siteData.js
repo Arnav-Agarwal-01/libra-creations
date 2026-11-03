@@ -1,5 +1,7 @@
 // Central site data — sourced from libracreations.in (real business data)
 
+import { giftingInventory, uniformInventory } from "@/lib/catalogueInventory";
+
 export const site = {
   name: "Libra Creations",
   tagline: "Perfect Balance for All Corporate Needs",
@@ -459,21 +461,202 @@ export const getServiceBySlug = (slug) =>
 export const getFeaturedForService = (slug) =>
   featuredCatalogue.filter((entry) => entry.service === slug);
 
-export const catalogueItems = [
-  ...services.flatMap((service) =>
-    service.products.map((name) => ({
-      id: `${service.slug}-${name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
-      name,
-      service,
-    })),
-  ),
-  ...featuredCatalogue.map((entry) => ({
-    id: entry.id,
-    name: entry.name,
-    service: getServiceBySlug(entry.service),
-    featured: entry,
-  })),
+// Items already shown as curated image cards — hide the matching inventory row so
+// the catalogue never shows the same product twice.
+const replacedInventory = [
+  ["Rare Rabbit", "Vintage Zip Polo"],
+  ["Rare Rabbit", "Formal Shirt - Corp Zander (Men)"],
+  ["Puma", "ESS Pique Tipping Polo — Sodalite-White"],
+  ["Skechers", "Turkish Blue with White and Navy Blue Tipping"],
+  ["Van Heusen", "Dry Fit Polo — Black"],
+  ["Van Heusen", "=Formal Shirt — CVC Blue (Wrinkle Free)"],
+  ["Moonland", "Organic Polo T-Shirts"],
+  ["uppercase", "Edge Alphatech Pro Laptop Backpack — Ember Black"],
+  ["HRX", "Urban Traveller"],
+  ["HRX", "Parabola"],
+  ["Libra range", "Weekender: Dual function"],
+  ["Libra range", "Croc Duffel"],
+  ["Libra range", "Matrix Duffel"],
+  ["Libra range", "Compact 5 Pc Cork Gift Set: A5 Size Notebook"],
+  ["Libra range", "ZenCharge: Bamboo Wireless Charger with Phone Stand and Triple Pen Stand"],
+  ["Libra range", "Set of Coffee warmer & SS Mug with Lid"],
+  ["Libra range", "TokuBox Trio"],
+  ["Libra range", "TiltX Serve"],
+  ["Libra range", "Winner Cup Desk Trophy with stand Shiny Chrome Cup"],
+  ["Libra range", "SnapCharge Duo"],
 ];
+
+const isReplaced = (item) =>
+  replacedInventory.some(
+    ([brand, fragment]) =>
+      item.brand === brand &&
+      (fragment.startsWith("=")
+        ? item.name === fragment.slice(1)
+        : item.name.includes(fragment)),
+  );
+
+const catalogueGroupConfig = [
+  {
+    slug: "corporate-uniforms",
+    anchor: "uniforms",
+    index: "01",
+    label: "Uniforms",
+    title: "Corporate Uniforms",
+    kicker: "Wear the brand",
+    solutionDetail: "Custom branding, sizing and nationwide delivery",
+    blurb:
+      "Formal shirting, polos, tees, jackets, caps and bags from Rare Rabbit, Puma, Van Heusen, Peter England, Skechers and Moonland — ready for embroidery, print or tailoring.",
+    inventory: uniformInventory,
+    familyOrder: [
+      "Polo T-Shirt",
+      "T-Shirt",
+      "Round Neck T-Shirt",
+      "Formal Shirt",
+      "Jacket",
+      "Track Jacket",
+      "Hoodie",
+      "Sweatshirt",
+      "Track Pant",
+      "Cap",
+      "Bags & Accessories",
+      "Backpack",
+      "Bag",
+      "Sling Bag",
+      "Duffel",
+      "Sports Shoe",
+      "Shoe",
+      "Accessory",
+    ],
+  },
+  {
+    slug: "corporate-gifting",
+    anchor: "gifting",
+    index: "02",
+    label: "Gifting",
+    title: "Corporate Gifting",
+    kicker: "Give the brand",
+    solutionDetail: "Custom branding, packaging and delivery",
+    blurb:
+      "Drinkware, notebooks, tech, desk, travel and recognition gifts from the Libra range, uppercase and HRX — from joining kits to festive hampers and custom sourcing.",
+    inventory: giftingInventory,
+    familyOrder: [
+      "Drinkware & Flasks",
+      "Eco Drinkware & Mugs",
+      "Notebooks & Diaries",
+      "Eco Notebooks",
+      "Pens & Highlighters",
+      "Eco Pens",
+      "Tech & Charging",
+      "USB Hubs",
+      "Mobile Stands",
+      "Mobile Accessories",
+      "Table Tops",
+      "Workplace Utility",
+      "Lamps & Torches",
+      "Table & Wall Clocks",
+      "Table Clocks",
+      "Lunch Boxes",
+      "Home & Kitchen",
+      "Bags & Travel",
+      "Travel Comfort",
+      "Joining Kits & Gift Sets",
+      "Doctor Sets",
+      "Keychains",
+      "Trophies & Awards",
+      "Photo Frames",
+      "Air Fresheners",
+      "Organizers & Folders",
+      "Visiting Card Holders",
+      "Lifestyle & Utility",
+      "Magnifiers & Utility",
+      "Trolley Bag",
+      "Trolley",
+      "Laptop Backpack",
+      "Duffle Trolley",
+      "Messenger Bag",
+      "Laptop Sleeve",
+    ],
+  },
+  {
+    slug: "event-management",
+    anchor: "events",
+    index: "03",
+    label: "Events",
+    title: "Corporate Events",
+    kicker: "Live the brand",
+    solutionDetail: "Concept, production and on-ground coordination",
+    blurb:
+      "Concept-to-execution support for annual days, launches, conferences, awards, town halls and employee engagement.",
+    inventory: [],
+  },
+];
+
+const slugify = (value) =>
+  value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+
+const buildCatalogueItem = ({ entry, service, kind, index }) => ({
+  id: `${service.slug}-${kind}-${index}-${slugify(entry.name)}`,
+  name: entry.name,
+  service,
+  brand: entry.brand || service.title,
+  family: entry.family || (kind === "solution" ? "Custom solution" : ""),
+  code: entry.code || "",
+  detail: entry.detail || "",
+  featured: entry.image ? entry : null,
+  kind,
+});
+
+export const catalogueGroups = catalogueGroupConfig.map((group) => {
+  const service = getServiceBySlug(group.slug);
+  const featured = featuredCatalogue.filter((entry) => entry.service === group.slug);
+  const familyOrder = group.familyOrder || [];
+  const familyRank = (family) => {
+    const rank = familyOrder.indexOf(family);
+    return rank === -1 ? familyOrder.length : rank;
+  };
+  const inventory = group.inventory
+    .filter((item) => !isReplaced(item))
+    .sort(
+      (a, b) =>
+        familyRank(a.family) - familyRank(b.family) ||
+        a.brand.localeCompare(b.brand) ||
+        a.name.localeCompare(b.name),
+    );
+
+  const items = [
+    ...featured.map((entry, index) =>
+      buildCatalogueItem({ entry, service, kind: "featured", index }),
+    ),
+    ...inventory.map((entry, index) =>
+      buildCatalogueItem({ entry, service, kind: "product", index }),
+    ),
+    ...service.products.map((name, index) =>
+      buildCatalogueItem({
+        entry: { name, detail: group.solutionDetail },
+        service,
+        kind: "solution",
+        index,
+      }),
+    ),
+  ];
+
+  return {
+    slug: group.slug,
+    anchor: group.anchor,
+    index: group.index,
+    label: group.label,
+    title: group.title,
+    kicker: group.kicker,
+    blurb: group.blurb,
+    service,
+    items,
+  };
+});
+
+export const catalogueItems = catalogueGroups.flatMap((group) => group.items);
 
 export const enquiryHref = (serviceSlug, item) => {
   const params = new URLSearchParams({ service: serviceSlug });

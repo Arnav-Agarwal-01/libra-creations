@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import CatalogueItemCard from "@/components/CatalogueItemCard";
-import { enquiryHref, getFeaturedForService, whatsappLink } from "@/lib/siteData";
+import { catalogueGroups, enquiryHref, getFeaturedForService, whatsappLink } from "@/lib/siteData";
 
 export default function ServiceDetail({ service }) {
   const isGifting = service.slug === "corporate-gifting";
   const rangeTitle = service.slug === "event-management" ? "Event formats and experiences" : `Explore the ${isGifting ? "gifting" : "uniform"} range`;
   const featured = getFeaturedForService(service.slug);
+  const catalogueGroup = catalogueGroups.find((group) => group.slug === service.slug);
 
   return (
     <>
@@ -59,17 +60,34 @@ export default function ServiceDetail({ service }) {
               <p className="mb-2 text-sm font-semibold text-muted">Choose a starting point</p>
               <h2 className="display-md text-ink">{rangeTitle}</h2>
             </div>
-            <p className="text-sm text-muted">{service.products.length} options</p>
+            <div className="text-right">
+              <p className="text-sm text-muted">{service.products.length} starting points</p>
+              {catalogueGroup && (
+                <Link
+                  href={`/services?category=${service.slug}`}
+                  className="text-link mt-1 text-sm"
+                >
+                  Browse all {catalogueGroup.items.length} options
+                </Link>
+              )}
+            </div>
           </div>
           <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {service.products.map((product) => (
               <li key={product}>
-                <CatalogueItemCard name={product} service={service} />
+                <CatalogueItemCard
+                  name={product}
+                  service={service}
+                  brand={service.title}
+                  family="Starting point"
+                  detail="Customised to your requirement"
+                  kind="solution"
+                />
               </li>
             ))}
           </ul>
           <p className="mt-5 text-sm text-muted">
-            Every option above can be branded with your logo and delivered nationwide. Looking for something on the shelf? Browse the featured pieces below.
+            Every starting point can be branded with your logo and delivered nationwide. Browse the featured pieces below, or open the full catalogue to search every available option.
           </p>
         </div>
       </section>
@@ -82,8 +100,8 @@ export default function ServiceDetail({ service }) {
                 <p className="mb-2 text-sm font-semibold text-muted">Straight from our catalogues</p>
                 <h2 className="display-md text-ink">Featured picks with searchable specs</h2>
               </div>
-              <Link href={`/catalogue?category=${service.slug}`} className="min-h-10 text-sm font-semibold text-muted underline decoration-line underline-offset-4 hover:text-ink">
-                Search the full catalogue
+              <Link href={`/services?category=${service.slug}`} className="min-h-10 text-sm font-semibold text-muted underline decoration-line underline-offset-4 hover:text-ink">
+                Search all {catalogueGroup?.items.length ?? 0} options
               </Link>
             </div>
             <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

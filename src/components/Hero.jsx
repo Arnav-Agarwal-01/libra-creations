@@ -39,7 +39,7 @@ export default function Hero() {
           </form>
 
           <Link href="/services" className="text-link mt-4">
-            Browse all {catalogueItems.length} solutions
+            Browse all {catalogueItems.length} options
             <svg viewBox="0 0 20 20" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true">
               <path d="M4 10h12m-5-5 5 5-5 5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>

@@ -14,7 +14,24 @@ function Tags({ tags }) {
   );
 }
 
-export default function CatalogueItemCard({ name, service, featured = null }) {
+function Arrow() {
+  return (
+    <svg viewBox="0 0 20 20" className="h-4 w-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true">
+      <path d="M4 10h12m-5-5 5 5-5 5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export default function CatalogueItemCard({
+  name,
+  service,
+  featured = null,
+  brand = "",
+  family = "",
+  code = "",
+  detail = "",
+  kind = "product",
+}) {
   const href = enquiryHref(service.slug, name);
   const label = `Enquire about ${name}`;
 
@@ -23,20 +40,33 @@ export default function CatalogueItemCard({ name, service, featured = null }) {
       <Link
         href={href}
         aria-label={label}
-        className="group flex min-h-36 flex-col justify-between rounded-xl border border-line bg-surface p-5 transition-colors hover:border-ink/40 hover:bg-mist/45"
+        className="group flex h-full min-h-52 flex-col rounded-xl border border-line bg-surface p-4 transition-colors hover:border-ink/40 hover:bg-mist/45"
       >
-        <div>
-          <span className="text-xs font-semibold text-muted">{service.title}</span>
-          <h3 className="mt-2 font-display text-xl font-semibold leading-tight tracking-[-0.025em] text-ink">
-            {name}
-          </h3>
+        <div className="flex items-start justify-between gap-3">
+          <span className="text-[11px] font-bold uppercase tracking-[0.12em] text-brass">
+            {brand}
+          </span>
+          {code && (
+            <span className="shrink-0 rounded border border-line px-1.5 py-0.5 text-[10px] font-semibold tracking-[0.04em] text-muted">
+              {code}
+            </span>
+          )}
         </div>
-        <span className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-ink">
-          Enquire about this
-          <svg viewBox="0 0 20 20" className="h-4 w-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true">
-            <path d="M4 10h12m-5-5 5 5-5 5" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </span>
+        <h3 className="mt-2 line-clamp-3 font-display text-lg font-semibold leading-snug tracking-[-0.025em] text-ink">
+          {name}
+        </h3>
+        {detail && (
+          <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">{detail}</p>
+        )}
+        <div className="mt-auto flex items-end justify-between gap-3 pt-4">
+          <span className="min-w-0 truncate text-[11px] font-semibold uppercase tracking-[0.08em] text-muted">
+            {family}
+          </span>
+          <span className="inline-flex shrink-0 items-center gap-1.5 text-sm font-bold text-ink">
+            {kind === "solution" ? "Discuss" : "Enquire"}
+            <Arrow />
+          </span>
+        </div>
       </Link>
     );
   }
@@ -60,7 +90,7 @@ export default function CatalogueItemCard({ name, service, featured = null }) {
         </span>
       </div>
       <div className="flex flex-1 flex-col p-4">
-        <h3 className="font-display text-lg font-semibold leading-snug tracking-[-0.025em] text-ink">
+        <h3 className="line-clamp-3 font-display text-lg font-semibold leading-snug tracking-[-0.025em] text-ink">
           {name}
         </h3>
         <p className="mt-1 text-sm text-muted">{featured.detail}</p>
@@ -69,9 +99,7 @@ export default function CatalogueItemCard({ name, service, featured = null }) {
         </div>
         <span className="mt-auto inline-flex items-center gap-2 pt-4 text-sm font-bold text-ink">
           Enquire about this
-          <svg viewBox="0 0 20 20" className="h-4 w-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true">
-            <path d="M4 10h12m-5-5 5 5-5 5" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
+          <Arrow />
         </span>
       </div>
     </Link>
